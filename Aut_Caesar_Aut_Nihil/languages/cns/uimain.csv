@@ -1,0 +1,108 @@
+﻿ui_texture_detail|纹理细节：
+ui_max_frame_rate|最高帧率：
+ui_enable_bumpmap|使用凹凸映射
+ui_disable_blood|隐藏血迹
+ui_disable_music|禁用音乐
+ui_disable_sound|禁用音效
+ui_enable_cheats|启用作弊
+ui_enable_edit_mode|启用编辑模式（注意：这会降低游戏运行速度。）
+ui_enable_pixel_shaders|使用像素着色器
+ui_enable_sound_variation|启用音效变化
+ui_enable_vertex_shaders|渲染方式：
+ui_shadow_quality|阴影质量：
+ui_directx_7|DirectX 7
+ui_directx_9|DirectX 9
+ui_show_framerate|显示帧率
+ui_start_windowed|以窗口模式启动
+ui_trialmode_caption|激活
+ui_trialmode|请花一点时间，用序列号激活《骑马与砍杀：战团》（Mount&&Blade Warband）。盒装游戏内附有独一无二的 16 位序列号。\n如果你暂时不想激活，也可以继续以试用模式游玩，但角色将无法超过 8 级。
+ui_launch_buy|从 TaleWorlds.com 购买授权
+ui_launch_faq|激活常见问题
+ui_trialmode2|如需现在激活游戏……
+ui_trialmode3|或者，你也可以……
+ui_trialmode4|如果对激活过程有疑问，可以阅读……
+ui_serial_key_caption|序列号
+ui_notification_serial_input|请在下方输入序列号（可以复制 && 粘贴），然后点击“激活”按钮
+ui_notification_serial_input_vc|此模组需要《维京征服》序列号才能运行。请在下方输入《维京征服》序列号（可以复制 && 粘贴），然后点击“激活”按钮
+ui_activate|激活
+ui_paste|粘贴
+ui_notification_serial_internet_connection|激活需要有效的互联网连接！
+ui_notification_serial_offline|如果此电脑无法联网，你也可以使用：
+ui_manual_activation|手动激活
+ui_offline_activation|离线激活
+ui_manual_activation_caption|手动激活
+ui_offline_activation_caption|离线激活
+ui_cancel2|取消
+ui_close|关闭
+ui_ok2|确定
+ui_activation_successful|游戏激活成功。
+ui_activation_successful2|请妥善保管序列号，以备日后使用。如果要在新电脑上安装《骑马与砍杀：战团》（Mount&&Blade Warband），可能还需要再次使用它。
+ui_activation_denied|激活被拒绝！
+ui_notification_serial_already_used|此序列号已用于另一台电脑。你必须等待几周，才能在本机重新激活游戏。
+ui_notification_unable_to_connect_to_activation_server|无法连接激活服务器！
+ui_notification_unable_to_connect_to_activation_server2|请确认互联网连接正常，然后重试。如果使用了防火墙，可能需要允许游戏访问互联网。如果仍无法激活，可以使用手动激活。
+ui_incorrect_serial_number|序列号错误！
+ui_incorrect_hardware_hash|硬件哈希值错误！
+ui_incorrect_activation_code|激活码错误！
+ui_cant_write_to_registry|无法写入注册表！
+ui_video|画面
+ui_audio|声音
+ui_game|游戏
+ui_advanced|高级
+ui_mount_and_blade_is_ready|《骑马与砍杀：战团》（Mount&&Blade Warband）已就绪。
+ui_notification_trial_mode|《骑马与砍杀：战团》（Mount&&Blade Warband）正以试用模式运行。此模式可自由游玩，直至角色达到 6 级。如需继续，请从 taleworlds.com 购买授权。在线购买只需片刻，即可解锁完整版。
+ui_there_are_no_modules_installed|尚未安装任何模组！
+ui_notification_new_version|发现较新版本的 Mount&Blade Warband。\n当前已安装版本为 %d.%d%d%d。\n最新版本为 %d.%d%d%d。\n可从 www.taleworlds.com 下载新版本。
+ui_new_version_found|发现新版本！
+ui_notification_unable_to_retreive_new_version|无法获取新版本信息，请稍后重试。
+ui_new_version|新版本：
+ui_notification_latest_version|当前安装的《骑马与砍杀：战团》（Mount&&Blade Warband）已是最新版本。
+ui_mount_and_blade_is_up_to_date|Mount&Blade Warband 已是最新版本！
+ui_off|关闭
+ui_continue_playing_the_trial_mode|继续以试用模式游玩
+ui_faq_caption|常见问题
+ui_faq_text|问：什么是激活？\r\n答：激活是一种方便用户的版权保护方式，每份游戏都附带独一无二的序列号。每台用于游玩的电脑都需要用该序列号激活一次。激活后，无需再进行其他操作（例如将游戏光盘留在光驱内）即可游玩。只要保管好序列号，即使多年以后，也能轻松激活并游玩。\r\n\r\n问：在哪里能找到序列号？\r\n答：每份盒装游戏都含有独一无二的序列号。不同销售商的提供方式可能不同，但通常附在纸质说明书封面上。如果在线购买，在线销售商应当向你提供序列号。\r\n\r\n问：激活如何进行？\r\n答：游戏会根据电脑硬件信息生成哈希值，并连同序列号通过互联网发送至激活服务器。服务器将序列号注册到你的电脑上，再返回激活码，解锁游戏的完整模式。\r\n\r\n问：可以在多台电脑上激活游戏吗？\r\n答：可以，但请记住，此游戏授权仅供你个人使用。如果短时间内在过多电脑上使用同一序列号，激活服务器可能会暂时拒绝该序列号。\r\n\r\n问：点击激活按钮后，程序停止响应。\r\n答：激活过程有时需要半分钟，请耐心等待，游戏最终会显示结果。\r\n\r\n问：我的电脑无法联网，如何激活？\r\n答：可以使用手动激活。先点击“输入序列号”，再点击“手动激活”。你仍需要在另一台联网电脑上打开手动激活网页。\r\n
+ui_auto_adjust|自动调整
+ui_screen_size|屏幕分辨率：
+ui_antialiasing|抗锯齿：
+ui_use_desktop_resolution|使用桌面分辨率
+ui_play|开始《骑马与砍杀：战团》（Mount&&Blade Warband）
+ui_check_for_new_version|检查新版本
+ui_configure|配置
+ui_configure_caption|配置
+ui_mountandblade_website|Mount & Blade Warband 网站
+ui_current_setting|           当前模组：
+ui_manual_activation_text1|1）在浏览器中打开以下地址：
+ui_manual_activation_text2|2）在打开的网页中输入序列号……
+ui_manual_activation_text3|3）……以及本机的硬件哈希值：
+ui_manual_activation_text4|4）网页将提供激活码。请在下方输入或粘贴激活码，然后点击“确定”。
+ui_activation_code|激活码：
+ui_force_vsync|强制垂直同步
+ui_module_newer_than_application|所选模组已明确标注无法在当前游戏版本上运行。强烈建议不要运行此配置。你可以检查是否有更新的游戏版本，以解决此问题。
+ui_module_older_than_application|所选模组是为旧版游戏制作的，可能无法在当前版本上运行。你可以尝试运行，但可能遇到问题。你可以检查是否有更新的模组版本，以解决此问题。
+ui_m_low|低
+ui_m_high|高
+ui_m_ultra_high|极高
+ui_force_single_threading|强制单线程
+ui_not_enough_memory|检测到当前可用物理内存及虚拟内存合计为 %d MB。Mount&Blade Warband 至少需要 700 MB 可用内存才能正常运行。如果游玩期间游戏反复崩溃，请在启动前关闭一些程序，或从“控制面板 -> 系统”菜单增加虚拟内存。
+ui_install|安装 Mount&Blade Warband
+DirectXText|"Mount&Blade Warband 需要 DirectX 9.0c 或更高版本才能运行。此电脑不符合要求。请从微软网站下载并安装最新版 DirectX。是否现在访问 TaleWorlds 的 DirectX 下载页面？"
+NoMountAndBladeText|"此电脑尚未安装 Mount&Blade Warband。请从 www.taleworlds.com 下载完整安装程序，并使用它安装游戏。"
+ui_SavegamesText|"是否保留存档文件？"
+ui_trialmode_online|《骑马与砍杀：战团》（Mount&&Blade Warband）正以试用模式运行。此模式可自由游玩，直至角色达到 7 级。如需继续，请输入序列号并激活游戏。如果已经购买，请现在输入序列号；如果尚未购买，可前往 Taleworlds.com 轻松购买。在线购买只需片刻，即可解锁完整版。
+ui_launch_activate|输入序列号
+ui_trialmode2_online|购买授权后，你将获得序列号。\n要解锁完整版，请继续……
+ui_trialmode3_online|或者，如果暂时不想购买，也可以……
+ui_trialmode4_online|我们的在线销售流程完全安全，并尊重顾客在安全、隐私、游戏备份以及升级电脑和硬件方面的权利。如需进一步了解销售政策，请查看：
+ui_ondemand_textures|按需载入纹理
+ui_language|语言：
+ui_steam_not_running|Steam 无法正常初始化。必须运行 Steam 才能游玩此游戏。
+ui_switch_to_turkish_explanation|是否将游戏语言切换为土耳其语？
+ui_switch_to_turkish_yes|是
+ui_switch_to_turkish_no|否
+ui_new_version_message|已有更新版本的游戏。是否现在访问下载页面？
+ui_enable_version_check|启用版本检查
+ui_disable|禁用
+ui_yes2|是
+ui_no2|否
+ui_new_version_message2|已有更新版本的游戏。请前往购买游戏的在线平台下载新版本。

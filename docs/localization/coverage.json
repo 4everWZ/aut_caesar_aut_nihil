@@ -1,0 +1,1603 @@
+{
+  "categories": {
+    "dialogs.csv": {
+      "occurrences": 12969,
+      "unique_ids": 12867,
+      "text_ids": 12395,
+      "translated_text_ids": 12375,
+      "untranslated_text_ids": 20,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "factions.csv": {
+      "occurrences": 75,
+      "unique_ids": 75,
+      "text_ids": 74,
+      "translated_text_ids": 74,
+      "untranslated_text_ids": 0,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "game_menus.csv": {
+      "occurrences": 3755,
+      "unique_ids": 2163,
+      "text_ids": 1976,
+      "translated_text_ids": 1834,
+      "untranslated_text_ids": 142,
+      "unchanged_entries": 0,
+      "conflicting_ids": 141,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "game_strings.csv": {
+      "occurrences": 9738,
+      "unique_ids": 9738,
+      "text_ids": 8951,
+      "translated_text_ids": 8565,
+      "untranslated_text_ids": 386,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "hints.csv": {
+      "occurrences": 30,
+      "unique_ids": 30,
+      "text_ids": 30,
+      "translated_text_ids": 30,
+      "untranslated_text_ids": 0,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "info_pages.csv": {
+      "occurrences": 58,
+      "unique_ids": 58,
+      "text_ids": 58,
+      "translated_text_ids": 56,
+      "untranslated_text_ids": 2,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "item_kinds.csv": {
+      "occurrences": 3794,
+      "unique_ids": 3794,
+      "text_ids": 3794,
+      "translated_text_ids": 3778,
+      "untranslated_text_ids": 16,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "item_modifiers.csv": {
+      "occurrences": 43,
+      "unique_ids": 43,
+      "text_ids": 43,
+      "translated_text_ids": 43,
+      "untranslated_text_ids": 0,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "parties.csv": {
+      "occurrences": 526,
+      "unique_ids": 526,
+      "text_ids": 503,
+      "translated_text_ids": 496,
+      "untranslated_text_ids": 7,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "party_templates.csv": {
+      "occurrences": 304,
+      "unique_ids": 304,
+      "text_ids": 303,
+      "translated_text_ids": 300,
+      "untranslated_text_ids": 3,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "quests.csv": {
+      "occurrences": 310,
+      "unique_ids": 310,
+      "text_ids": 171,
+      "translated_text_ids": 171,
+      "untranslated_text_ids": 0,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "quick_strings.csv": {
+      "occurrences": 6060,
+      "unique_ids": 6060,
+      "text_ids": 5574,
+      "translated_text_ids": 5537,
+      "untranslated_text_ids": 37,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "skills.csv": {
+      "occurrences": 84,
+      "unique_ids": 84,
+      "text_ids": 84,
+      "translated_text_ids": 50,
+      "untranslated_text_ids": 34,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "skins.csv": {
+      "occurrences": 308,
+      "unique_ids": 35,
+      "text_ids": 35,
+      "translated_text_ids": 35,
+      "untranslated_text_ids": 0,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "troops.csv": {
+      "occurrences": 5220,
+      "unique_ids": 5220,
+      "text_ids": 4173,
+      "translated_text_ids": 3775,
+      "untranslated_text_ids": 398,
+      "unchanged_entries": 0,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "ui.csv": {
+      "occurrences": 756,
+      "unique_ids": 752,
+      "text_ids": 745,
+      "translated_text_ids": 743,
+      "untranslated_text_ids": 2,
+      "unchanged_entries": 9,
+      "conflicting_ids": 2,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    },
+    "uimain.csv": {
+      "occurrences": 108,
+      "unique_ids": 108,
+      "text_ids": 108,
+      "translated_text_ids": 106,
+      "untranslated_text_ids": 2,
+      "unchanged_entries": 2,
+      "conflicting_ids": 0,
+      "runtime_id_convention_verified": true,
+      "exact_build_engine_export_compared": false,
+      "player_visibility_verified": false
+    }
+  },
+  "source_files": 50,
+  "source_quick_string_literals": 6602,
+  "errors": [],
+  "conflicting_source_ids": {
+    "dialogs.csv": {},
+    "factions.csv": {},
+    "game_menus.csv": {
+      "mno_go_back": [
+        "Continue.",
+        "Go Back.",
+        "Go back",
+        "Go back.",
+        "{!}Go back"
+      ],
+      "mno_go_back_dot": [
+        "Cancel.",
+        "Continue.",
+        "Go back.",
+        "Return to main menu.",
+        "{!}Go back."
+      ],
+      "mno_resume_travelling": [
+        "Abandon fortifications.",
+        "Back.",
+        "Camp Menu.",
+        "Continue camping.",
+        "Resume travelling."
+      ],
+      "mno_continue": [
+        " Let the peasant go.",
+        " Never fall asleep and never yawn... I try my best...",
+        "'No problem. Let me help you.'",
+        "... What the hell ...",
+        "... until darkness takes you.",
+        "A rest sounds fine...",
+        "Accept the offer. The soldiers deserve it.",
+        "Aestas...",
+        "All are traitors!",
+        "As {s21}, I will not tolerate such barbaric rituals!",
+        "Attack now. Hopefully we can save some peasants.",
+        "Attempt to sneak in...",
+        "Ave Caesar! Glory to the Princeps. Me he he...",
+        "Bitch.",
+        "Break the pact and declare war!",
+        "Break your agreement with {s2}.",
+        "Break your alliance with {s1}.",
+        "Bring it back to the legion's camp. ",
+        "Buy additional grain, using funds from the imperial treasury! [150,000 denarii]",
+        "Buy additional grain, using funds from your own purse! [150,000 denarii]",
+        "By the gods!",
+        "Choose up to {reg1} items to bring.",
+        "Collect tributes.",
+        "Collect your prize...",
+        "Continue ...",
+        "Continue.",
+        "Cruel...",
+        "Daily training session.",
+        "Damn it. I'll have to tell them that the gods are still angry.",
+        "Declare the comet a sign of divine displeasure and offer a grand sacrifice. [costs: 250,000 denarii; use public funds!]",
+        "Declare the comet a sign of divine displeasure and offer a grand sacrifice. [costs: 250,000 denarii; use your own funds!]",
+        "Declare the comet a sign of divine displeasure and offer a sacrifice. [costs: 100,000 denarii; use public funds!]",
+        "Declare the comet a sign of divine displeasure and offer a sacrifice. [costs: 100,000 denarii; use your own funds!]",
+        "Declare your independence from {s1}.",
+        "Defend!",
+        "Deliver the bribe.",
+        "Demand additional tribute of 15,000 denarii!",
+        "Demand no additional tribute and ignore the matter.",
+        "Descend into the underworld...",
+        "Destroy this place and exterminate the population...",
+        "Do not join this war and break your alliance!",
+        "Do nothing and risk getting punished.",
+        "Do nothing.",
+        "Don't punish them at all.",
+        "Enter the longhouse.",
+        "Enter the tent.",
+        "Establish a tributary state",
+        "Fight.",
+        "Follow {s1} in the war.",
+        "Follow {s2} in the war.",
+        "Forage. (Hunting)",
+        "Force them to hold off from such plans!",
+        "Fortes fortuna adiuvat!",
+        "Gather some left overs and continue...",
+        "Give alarm and then chase them.",
+        "Glory to me! (with trumpeter)",
+        "Glory to me! (without trumpeter)",
+        "Go Back.",
+        "Go back.",
+        "Go to bed.",
+        "Go to the commanders tent.",
+        "God has spoken to me!",
+        "Good.",
+        "He is clearly a spy, torture him until he gives up the ambush location.",
+        "He won through bribery, I am sure.",
+        "Help your ally by declaring war.",
+        "Here we go again.",
+        "Here we go again...",
+        "Hiems...",
+        "Hold a triumph!",
+        "Hold off...",
+        "Hopefully he wasn't an enemy scout.",
+        "I have enough. Sail back!",
+        "I hope they have learned something...",
+        "I must find a way out...",
+        "I should do something. I will make a sacrifice.",
+        "I spend enough time in this village. I will leave now.",
+        "I think I had too much wine ...",
+        "I will go to this grove ...",
+        "I will help the women with their laundry.",
+        "I will lead by example and try to remember every name and to use the whip only if necessary...",
+        "I will tell them, that the sacrific was a success... they didn't saw it at all.",
+        "I will walk upstream.",
+        "I'll show that bastard a lesson...",
+        "Ignore her and continue your walk.",
+        "Ignore him.",
+        "Ignore the situation.",
+        "Imprison him. He is clearly a bandit.",
+        "Ingore it and do nothing.",
+        "Interrogate him.",
+        "Intervene immediately.",
+        "Investigate this...",
+        "Leave.",
+        "Leave...",
+        "Legio! Aeterna! Aeterna! Victrix!",
+        "Let him go, he seems to be a commoner.",
+        "Let them eat cake! [Do nothing]",
+        "Loot and pillage too.",
+        "Make no suggestion.",
+        "Nice! Haha!",
+        "Nice.",
+        "No interest.",
+        "No need to check. Let's do this! [You pay {reg41}. In one or two weeks you will recieve the loan + interests back, if the deal fails you recieve nothing.]",
+        "No, I was just looking at this beautiful wall painting.",
+        "Offer the slaves help.",
+        "Order not only to punish the farmer for attacking representatives of the Princeps but take also all his other goods and gold.",
+        "Order the soldiers to release the girl and the unlawfully taken goods. We only take the cattle not more!",
+        "Order to attack them!",
+        "Order to punish the farmer for attacking representatives of the Princeps.",
+        "Order to retreat!",
+        "Patrol.",
+        "Pay him. [100 denarii.]",
+        "Pay the tribute.",
+        "Pay the tribute. [15,000 denarii]",
+        "Refuse to pay the tribute and declare war.",
+        "Refuse.",
+        "Reject the offer and use the whip more often to force the soldiers to work harder.",
+        "Reject the offer. We have a strict deadline to finish the road.",
+        "Return it to the village.",
+        "Sail forward!",
+        "Select how much gold to carry.",
+        "Sell it at the nearest market and divide up the money with your soldiers.",
+        "Smash the bastards!",
+        "Soldiers, Knock them down!",
+        "Soldiers, attack!",
+        "Soldiers, defend!",
+        "Suggest decimation: This harsh treatment will guarantee discipline.",
+        "Suggest to pay some women from nearby villages to entertain the troops.",
+        "Suggest to search for the main troublemaker and punish them.",
+        "Talk with her.",
+        "Tell it the Centurio. They have abused their position and brought shame onto Caesar!",
+        "Tell it the centurio.",
+        "Tell the woman to inform her mistress that you are indisposed",
+        "Tell the woman to inform her mistress that you will come shortly",
+        "Temperance is a virtue.",
+        "Terrible.",
+        "That is fine.",
+        "The centurio orders to force them to pay the tribute.",
+        "The clash can start",
+        "The soldiers must work, but I could need some company...",
+        "There is nothing to be done if the gods are angry.",
+        "They have to pay the tribute! Otherwise we enslave some of their women and children.",
+        "They will die anyways. I will do it like the other officers...",
+        "This cannot continue...",
+        "Time to be become Pharaoh!",
+        "Travel to {s40} to better evaluate this deal yourself.",
+        "Try to avoid them.",
+        "Try to enforce peace by threatening {s1} with joining the war. [costs 1,000 denarii to send message]",
+        "Try to engage them.",
+        "Try to persuade {s1} to stop the war. [costs 1,000 denarii to send message]",
+        "Try to stop them from escaping alone. (risky)",
+        "Try to stop them.",
+        "Very good!",
+        "Very good.",
+        "Wait outside...",
+        "Wait till the fight is over and then attack the survivors.",
+        "Wake him up.",
+        "Walk around.",
+        "Walk towards the aquilifer, tear out the aquila of his hands and RUN!",
+        "We will hunt them down...",
+        "Well done...",
+        "Well, the bandits are too far away...",
+        "Well, whatever.",
+        "What a nonsense! Do nothing.",
+        "Whip them one hundred times! Such laziness needs a proper punishment.",
+        "Whip them twenty times. That's enough.",
+        "Your centurio orders to attack them!",
+        "Your commander decides to attack them...",
+        "Your commander decides to ignore him...",
+        "{s24} is mine, but I will not pay the messanger!"
+      ],
+      "mno_agility": [
+        "... Ceres gave you (sexual) potency.",
+        "... Diana gave you agility."
+      ],
+      "mno_option_2": [
+        "Continue.",
+        "Creat a follower party.",
+        "Do nothing.",
+        "Donate only 25,000 denarii.",
+        "Have him beaten as punishment.",
+        "I don't need additional allies..",
+        "Ignore the hag, take the fruit.",
+        "It's party time!",
+        "Join Galba (will lose all offices).",
+        "Join Otho (will lose all offices).",
+        "Join Vespasian (will lose all offices).",
+        "Join Vitellius (will lose all offices).",
+        "Leave.",
+        "Make sacrifices only. [25,000 denarii]",
+        "Pledge to deliver twenty shiploads of grain.",
+        "Remain neutral (will lose all offices).",
+        "Risk it and gather the apples.",
+        "Sarmatians? Send them away!",
+        "Sent {reg10} denarii.",
+        "Sent {reg11} denarii.",
+        "Stop her.",
+        "Store items on the mules.",
+        "Talk with the physician.",
+        "Tell the servent you have no time.",
+        "Wait until morning.",
+        "{s22} is right. The {s24} should not have been built near his estate. But his demand is too high. Pay him only 50,000 denarii."
+      ],
+      "mno_back_1": [
+        "Dismiss follower party.",
+        "Go Back."
+      ],
+      "mno_option_0": [
+        "Move all drinkable items from your inventory on the mules.",
+        "Move all food items from your inventory on the mules."
+      ],
+      "mno_option_1": [
+        " Leave the fruit alone.",
+        "Allow her to continue.",
+        "Applaud and ask him if you could do him any favor.",
+        "Approach.",
+        "Continue.",
+        "Donate 50,000 denarii.",
+        "Enter.",
+        "Epiphany...",
+        "Exit to main menu.",
+        "Fight your way out!",
+        "Fight!",
+        "Flee...",
+        "Follow the servant.",
+        "Go ashore.",
+        "I am not ready yet.",
+        "Just quickly leave.",
+        "Leave the apples and the scene undisturbed.",
+        "Leave.",
+        "Make sacrifices to appease the gods and compensate the victims. [50,000 denarii]",
+        "Manage follower party.",
+        "Order a quarantine.",
+        "Pledge to deliver twenty-five shiploads of grain.",
+        "Send a party after the killer.",
+        "Set camp and wait for the next day.",
+        "Start negotations.",
+        "Take the bong and then leave.",
+        "Talk with Mancinellus.",
+        "Test scene.",
+        "The Iazyges shall be a Roman protectorate..",
+        "The cup is lost...",
+        "To Alexandria! New adventures await!",
+        "Travel back to Rome.",
+        "Wait for Poppaea.",
+        "Walk around Karsahr.",
+        "Welcome the delegation and start negotiations.",
+        "Yes. Let us go.",
+        "{s22} is right. The {s24} should not have been built near his estate. [cost: 100,000 denarii]"
+      ],
+      "mno_camp_wait_here": [
+        "Build fortifications.",
+        "Wait here for some time."
+      ],
+      "mno_camp_cheat_find_item": [
+        "Add unhealth.",
+        "Change weather.",
+        "Find an item...",
+        "Search for issues with governors"
+      ],
+      "mno_camp_cheat_1": [
+        "{!}Decrease player renown.",
+        "{!}Increase player renown."
+      ],
+      "mno_camp_cheat_2": [
+        "{!}Decrease player honor.",
+        "{!}Increase player honor."
+      ],
+      "mno_cheat_faction_orders": [
+        "{!}Cheat: Set Debug messages to All.",
+        "{!}Cheat: Set Debug messages to Econ Only.",
+        "{!}Cheat: Set Debug messages to Political Only."
+      ],
+      "mno_back_to_camp_menu": [
+        "Grain prices.",
+        "{!}Back to camp menu."
+      ],
+      "mno_camp_action_4": [
+        "Back to camp menu.",
+        "{!}Back to camp menu."
+      ],
+      "mno_camp_action": [
+        "CHEAT ACTIVATE SPORUS.",
+        "CHEAT skip wlod 1 and wlod 2 and wlod 3 and 4.",
+        "Show legendary items.",
+        "Take an action."
+      ],
+      "mno_camp_cheat": [
+        "CHEAT MENU!",
+        "CHEATS!"
+      ],
+      "mno_options": [
+        "Add 1,000 influence.",
+        "Add 100 promotion points.",
+        "Add 100 slaves.",
+        "Add 50,000 denarii.",
+        "MORE CHEATS.",
+        "Randomly improve relation with Roman lords by 10 to 80 points.",
+        "Remove 50 promotion points.",
+        "Scene testing (talk with fortuna)"
+      ],
+      "mno_camp_recruit_prisoners": [
+        "Convert your prisoners to slaves.",
+        "Recruit some of your prisoners to your party."
+      ],
+      "mno_camp_recruit_prisoners_accept": [
+        "Make them to slaves!",
+        "Take them."
+      ],
+      "mno_leave": [
+        "'You idiot! Watch out!'",
+        "Bet 100 denarii.",
+        "Bet 1000 denarii.",
+        "Bet 250 denarii.",
+        "Bet 500 denarii.",
+        "Come back later.",
+        "Continue.",
+        "Damn it.",
+        "Fight!",
+        "Forget it.",
+        "Give him the money...",
+        "Give up.",
+        "Go Back.",
+        "Go back.",
+        "I believe! I believe in the resurrection of Christ!",
+        "I don't have that much...",
+        "I have spend enough time here. I will say farewell and leave.",
+        "I will walk back to the village.",
+        "Leave",
+        "Leave.",
+        "Let's get drunk!",
+        "No, I will continue fighting.",
+        "Participate too!",
+        "Race!",
+        "Run!",
+        "Show remaining opponents.",
+        "Start the race.",
+        "Start the vote.",
+        "Take the lance. Glory to God!",
+        "Throw!",
+        "Very good.",
+        "View participants list.",
+        "Walk around.",
+        "Withdraw.",
+        "Yes, it is pointless."
+      ],
+      "mno_cattle_kill_5": [
+        "Five.",
+        "Ten."
+      ],
+      "mno_cattle_kill_10": [
+        "Hecatomb in honor of {s8}. (100 cattle)",
+        "Ten."
+      ],
+      "mno_commander": [
+        "Request audience with your commander.",
+        "Talk with the Immune responsible for treating wounds."
+      ],
+      "mno_siege_assault_camp": [
+        "Destroy your fortifications.",
+        "Fortify your siege camp.",
+        "Your siege Camp."
+      ],
+      "mno_cheat_castle_lead_attack": [
+        "{!}CHEAT: Instant build equipment.",
+        "{!}CHEAT: Instant build equipments."
+      ],
+      "mno_leave_men": [
+        "It makes me uneasy. Forget about it.",
+        "Leave the men to their fate. They knew what was coming."
+      ],
+      "mno_emboscada_playerok": [
+        "Retreat in shame.",
+        "Victory!"
+      ],
+      "mno_regreso_lucha": [
+        "Victory!",
+        "Your worst fears have come true."
+      ],
+      "mno_infiltracion_morali": [
+        "Avenge the insult to us!",
+        "Cowards! How can a couple of heads sink the morale of an army? Are they cattle or men?"
+      ],
+      "mno_castle_taken_no_claim": [
+        "Ask for no rewards.",
+        "Send news about your victory to Rome!"
+      ],
+      "mno_siege_defender_join_battle": [
+        "Join the battle.",
+        "Sally out."
+      ],
+      "mno_siege_defender_troops_join_battle": [
+        "Order your men to join the battle without you.",
+        "Stay back and let the others fight."
+      ],
+      "mno_village_manage": [
+        "Manage this center.",
+        "Manage this village."
+      ],
+      "mno_recruit_volunteers": [
+        "Raid some houses and kill Tristitias husband.",
+        "Recruit Volunteers."
+      ],
+      "mno_collect_taxes_qst": [
+        "Unused",
+        "{reg5?Continue collecting taxes:Collect taxes} due to {s1}."
+      ],
+      "mno_village_hostile_action": [
+        "Demand to meet the family of {s50}.",
+        "Take a hostile action."
+      ],
+      "mno_village_loot": [
+        "Loot and burn this village.",
+        "Plunder the village, then raze it."
+      ],
+      "mno_exchange": [
+        "Exchange with party.",
+        "Exchange.",
+        "Manage cohorts.",
+        "Review garrison and prisoners."
+      ],
+      "mno_test_scene": [
+        "Test scene",
+        "Visit the holy forest of Seraca"
+      ],
+      "mno_attack": [
+        "Continue.",
+        "Give order to attack!",
+        "Give orders to march North."
+      ],
+      "mno_defend": [
+        "Forget it.",
+        "Go back."
+      ],
+      "mno_castle_wait": [
+        "Rest here for some time.",
+        "Rest here for some time{s1}.",
+        "Wait here for some time{s1}."
+      ],
+      "mno_imperial_gardens": [
+        "Visit imperial gardens.",
+        "Visit the Triclinium."
+      ],
+      "mno_villa": [
+        "Enter the villa.",
+        "Visit the 'Domus Mare'.",
+        "Walk around."
+      ],
+      "mno_set_sail": [
+        "Unused",
+        "Visit the port"
+      ],
+      "mno_visit_gaius_villae": [
+        "Visit 'Biggus Dickus' villa.",
+        "Visit Desperatius villa.",
+        "Visit Gaius Petronius villa."
+      ],
+      "mno_town_leave": [
+        "Go back to Neapolis.",
+        "Leave..."
+      ],
+      "mno_host_tournament": [
+        "Host a tournament",
+        "Host games.",
+        "{!}Cheat : Win games"
+      ],
+      "mno_tournament_withdraw_yes": [
+        "Yes. I am Imperator Caesar Augustus. Not a common gladiator.",
+        "Yes. This is a pointless affectation."
+      ],
+      "mno_tournament_withdraw_no": [
+        "No, I want to fight by myself!",
+        "No, not as long as there is a chance of victory!"
+      ],
+      "mno_baths": [
+        "Visit the Mikveh. (baths)",
+        "Visit the baths."
+      ],
+      "mno_ignore": [
+        "Ignore the provocations.",
+        "Ignore the situation"
+      ],
+      "mno_gifts_largest_neighbor": [
+        "Ask them to switch sides by offering 50,000 denarii.",
+        "Send them gifts. [25,000 denarii]"
+      ],
+      "mno_appoint_default": [
+        "Appoint Antonia.",
+        "Appoint a prominent citizen from the area..."
+      ],
+      "mno_enter": [
+        "Continue.",
+        "Enter",
+        "Enter the tomb."
+      ],
+      "mno_nurse": [
+        "Go with the nurse",
+        "Wait by the spring"
+      ],
+      "mno_continue_1": [
+        "Attack the hideout...",
+        "Walk around..."
+      ],
+      "mno_accept": [
+        "Accept the honor",
+        "Nothing."
+      ],
+      "mno_decline": [
+        "Continue.",
+        "Decline the honor"
+      ],
+      "mno_dplmc_continue": [
+        "Accept. {s2} are now my tributaries.",
+        "Continue.",
+        "Proceed without Custos Publicus.",
+        "Proceed without Quaestor.",
+        "Proceed without chancellor.",
+        "Reject the offer."
+      ],
+      "mno_dplmc_back": [
+        "Back...",
+        "Continue.",
+        "Show trade report."
+      ],
+      "mno_page": [
+        "Next Page.",
+        "Previous Page."
+      ],
+      "mno_debug": [
+        "Party Cheats.",
+        "Set town faction to the faction of the lord owning it."
+      ],
+      "mno_rename": [
+        "Rename party.",
+        "Rename the companion.",
+        "Rename."
+      ],
+      "mno_previous": [
+        "Previous Faction.",
+        "Previous Party ({s2})."
+      ],
+      "mno_next": [
+        "Next Faction.",
+        "Next Party ({s2}).",
+        "Next Troop ({s2})."
+      ],
+      "mno_back": [
+        "Back.",
+        "Leave.",
+        "Never mind..."
+      ],
+      "mno_back_to_siegeb": [
+        "Back to siege.",
+        "Damn."
+      ],
+      "mno_choice_26_3b": [
+        "Prove yourselves worthy by raiding a village.",
+        "Well done! An officer will show you to your places."
+      ],
+      "mno_choice_4comm": [
+        "Make a sacrifice to YHWH.",
+        "Make a sacrifice to the gods."
+      ],
+      "mno_defendiendo_1_cd": [
+        "Continue.",
+        "[Skip]"
+      ],
+      "mno_Continue.": [
+        "A trap...",
+        "Climb over the wall.",
+        "Collect the herbs.",
+        "Continue.",
+        "Damn.",
+        "Defend yourself",
+        "Go back.",
+        "I shouldn't drink so much ...",
+        "It's party time! Let's get drunk!",
+        "Leave.",
+        "Luckily, I am alive.",
+        "Search for Arminius tomb.",
+        "Talk with him",
+        "Tell it was some paid murderer, who escaped.",
+        "Tell she was murdered by her slaves. According to Roman law, all her slaves would be crucified.",
+        "Tell your master I am not interested at all.",
+        "Tell your master, I will come as soon as possible.",
+        "Test scene.",
+        "Visit the hut."
+      ],
+      "mno_answere_1": [
+        " Install a friendly despot. (25,000 denarii)",
+        "... Finally I come back to you ...",
+        "... Will I ever see you again? ...",
+        "AHAHA I must talk with her!!!",
+        "Accept the gifts.",
+        "Ah I should fullify my promise.",
+        "Ah I will fullify my promise immediately.",
+        "Am I crazy?",
+        "Build such a boat! (200000 denarii)",
+        "Chide your advisers to pay you more respect.",
+        "Continue ...",
+        "Continue.",
+        "Damn it",
+        "Damn it!",
+        "Damn it.",
+        "Death waits.",
+        "Death waits...",
+        "Discretely help one side. (10,000 denarii)",
+        "Divert the grain to save {s11}",
+        "Do not get involved.",
+        "Double marines on board, arrange shipping into larger convoys.",
+        "Explore the place.",
+        "Explore.",
+        "Force a lot of people to listen to your music!",
+        "From now on she shall be free! Additionally, I gift her 50,000 denarii.",
+        "Gift her 1,000 denarii and let her go.",
+        "Go away, demon! Away with you!",
+        "Go back",
+        "Go back.",
+        "Grant the request",
+        "Grant the request.",
+        "Hm, what is she thinking?",
+        "I am not the one to blame when other people are incompetent!",
+        "I will give them {reg0}",
+        "I will read Cicero or Homer.",
+        "Interessting.",
+        "It is a stupid idea.",
+        "Kill the ambassador of {s11}",
+        "Leave.",
+        "Let {s15} have his triumph!",
+        "Luckily alive!",
+        "Maybe she is a demon or something like that?",
+        "Means this I must read hundreds of writings and answer them?",
+        "Nero has done the right thing, nobody should offend the Princeps.",
+        "No stop it, It is too dangerous.",
+        "Oh, come on!",
+        "Pay for your own repairs. (pay 50,000 denarii)",
+        "Proceed as planned.",
+        "Protect Nero.",
+        "Protect the {s24} subjects.",
+        "Punish this stupid creature!",
+        "Resolve the dispute in favor of settled {s24} subjects.",
+        "Ridiculous! Board games belong on a table.",
+        "Send a letter to the governor, expressing your appreciation.",
+        "Send a letter, summoning {s44}. And they'd better have all the papers.",
+        "Send her in.",
+        "She is really beautiful when she smiles!",
+        "Support Nero, the official isn't corrupt.",
+        "Support Nero.",
+        "Support the Augusta and counter these rumors.",
+        "Talk with other people, especially the senators to ensure their support.",
+        "The province is senatorial and the governor elected by the senate. Don't use your veto. Senate shall decide!",
+        "The province is senatorial and the governor elected by the senate. There is nothing I can do about it!",
+        "There are NO MAGICAL CREATURES!",
+        "This is nonsense.",
+        "This poor children.",
+        "Veto!",
+        "Visit the Pythia.",
+        "Visit this place.",
+        "Wait until evening.",
+        "Walk around",
+        "We will see what I can do ...",
+        "Well done.",
+        "Well. I give you 20,000 denarii!",
+        "What? I am a god. I will build an army like Alxeander and conquer even more! (150,000 denarii)",
+        "Whatever, I don't have time for this.",
+        "Write a letter to your wife, stating she should not waste money.",
+        "Yes a good idea",
+        "Yes it is our destiny to die.",
+        "Yes, thats exactly the purposes of religion.",
+        "{s44} is guilty, but I won't punish him hard."
+      ],
+      "mno_leg": [
+        "Attend to the meeting.",
+        "Bring the petition from {s22} before the senate.",
+        "End the civil war and declare yourself victor!",
+        "Inspect the imperial treasury.",
+        "Issue a compulsory order to start a meeting. (costs: 4000 gold, lowers senate support)",
+        "Join the discussion",
+        "Legitimize your rule with the senate.",
+        "Lobby for water rights",
+        "Proclaim you have the promised amount of grain.",
+        "Propose to rename a month after you.",
+        "Propose to revoke the 'Senatus consultum de Bacchanalibus'",
+        "Walk around."
+      ],
+      "mno_rec_visit": [
+        "Customize your auxilia ala.",
+        "Customize your auxilia cohort.",
+        "Customize your cavalry retinue.",
+        "Customize your infantry retinue.",
+        "Customize your legion.",
+        "Customize your skirmisher retinue.",
+        "Recruit cohorts, mercenary companies or refill units.",
+        "Recruit mercenaries or refill units.",
+        "Walk around."
+      ],
+      "mno_answere_2": [
+        "--Take her hand.--",
+        "A strange girl she is...",
+        "Buy as much cheap farmland as possible. (250,000 denarii)",
+        "Damn it.",
+        "Demand the governor pays for your repairs.",
+        "Deny the request.",
+        "Dismissed.",
+        "Do not get involved, {s26} does not care.",
+        "Enter the cave",
+        "Expel the ambassador.",
+        "From now on she shall be free!",
+        "Go back",
+        "I also need such a place!",
+        "I do not have money for this nonsens. Work harder!",
+        "I don't like singing or music at all!",
+        "I will do some sport.",
+        "I will give them {reg0}",
+        "I will order the praetorian guard to watch him. Psychological terror will drive him insane.",
+        "I will send a procurator to investigate this matter...",
+        "I will sent him an angry letter stating I will never help any Christians!",
+        "I won't do anyrhing. Those stupid Christians.",
+        "Import vast quantities of salted fish from Aden, to create jobs for their unemployed mariners.",
+        "Keep all grain for {s25}.",
+        "Leave",
+        "Leave.",
+        "Let her go.",
+        "No I will not die. I am some sort of god!",
+        "No problem. We can buy new one",
+        "No! I am a god. Punish him!",
+        "No! Killing gladiators who don't fight back is wrong.",
+        "No, too expensive",
+        "Not necessary.",
+        "Personally track down {s44} in secret.",
+        "Refuse the request",
+        "Reject the gifts.",
+        "Resolve the dispute in favor of the border nomad tribes.",
+        "Sacrifice villagers to the nomads.",
+        "Say nothing to the case.",
+        "Secretly arrange to pay protection money to the biggest pirate gangs.",
+        "Send a gift to the governor. (25,000 denarii)",
+        "Send enough aid. (300,000 denarii)",
+        "Send food aid to the city. (75,000 denarii)",
+        "Something is strange with her.",
+        "Stay neutral, {s26} does not care.",
+        "Stay neutral.",
+        "The above, and fund more public performances about yourself.",
+        "This is a really stupid idea.",
+        "Those smelly peasants ...",
+        "Trade books.",
+        "Up with her head!",
+        "Use your veto and stop this motion.",
+        "Very good",
+        "Visit the mine.",
+        "Visit this place.",
+        "Walk around.",
+        "What? She seems to have gone crazy. Up with her head.",
+        "Who cares?",
+        "Wine, I want wine!",
+        "Write a letter to your wife, stating she should start a diet.",
+        "Yes outfit an expedition to the underworld. I want her back!",
+        "Yes. I will loot it! HAHAA!!",
+        "{s44} is guilty and must be punished, he must pay reparation!"
+      ],
+      "mno_answere_3": [
+        "Accept and send your own gifts.",
+        "All above, and buy up as many {s40} coins as possible, recasting them into your own.",
+        "Attack Nero and his wife, they are both pigs!",
+        "Attack Nero, he is a murderer!",
+        "Attack Nero, the official is corrupt!",
+        "Attack Nero.",
+        "Back {s25}'s friends with overwhelming force (50,000 denari)",
+        "Bring me wine and something to eat!",
+        "Continue.",
+        "Don't use your veto. The senate shall decide!",
+        "Execute the {s11}'s leaders.",
+        "Freedom of speech is important, Nero is a fool!",
+        "Hm, I will take the most beautiful woman and... BANG BANG BANG",
+        "Keep her as slave.",
+        "Leave.",
+        "Let him do it at his own expense.",
+        "No. Your breasts are much greater! Now come to my bed...",
+        "Order the praetorian guard to get rid of him",
+        "Order your guard to bring you the most beautiful girl of Rome and tell her: She has won a night with Caesar himself!",
+        "Remove the governor and make him pay a punitive amount. (gain 15,000 denarii)",
+        "There are gods, of course!",
+        "Try to convince some senators.",
+        "What a nonsense.",
+        "Whatever...",
+        "Yes, what ever you want. I will order it! (50,000 denarii)",
+        "{s44} is not guilty. He simply does his job."
+      ],
+      "mno_answere_4": [
+        "All above, and tear down all public displays of {s40}.",
+        "Contribute 50,000 denari to the Latrones Championship Finals.",
+        "Sell her on a slave market.",
+        "Use your veto and stop this motion. But also shower the province with gifts to ease their anger. [100,000]",
+        "Yes. Alexander was greater than me! And?"
+      ],
+      "mno_answere_2_emperor": [
+        "My wife is a true follower of Bachus.",
+        "Say nothing to the case."
+      ],
+      "mno_answere_0": [
+        "Continue..",
+        "Do it and the portrait of my wife should also be featured",
+        "Do nothing. Some losses are inevitable and the situation will stabilize on its own.",
+        "Go back.",
+        "I offer her a rank as may companion.",
+        "I will adopt her. She deserves something better.",
+        "I will propose her to marry me. She seems a good match.",
+        "Interessting...",
+        "It's fine. I trust {s44}. ",
+        "Make it so!",
+        "Search for the spirit stones.",
+        "Steal the silk worms (cost: 1,000,000 denarii)",
+        "Throw a Great Festival of Discovery (cost: 1,000,000 denarii)"
+      ],
+      "mno_choice_02_1": [
+        "Allocate 10,000 denarii for an alms fund.",
+        "Allow the family to inherit his assets.",
+        "Be impartial and rule justly, ignoring personal feelings.",
+        "Have him whipped.",
+        "Kill him.",
+        "Laugh.",
+        "Seize the traitor's assets and accuse a few more wealthy Romans of treason to size even more.",
+        "Seize the traitor's assets."
+      ],
+      "mno_choice_02_2": [
+        "Ignore them.",
+        "Play favorites and allow yourself to be influenced."
+      ],
+      "mno_choice_02_3": [
+        "Beggars huh? The guards will get rid of them.",
+        "Caligula was right: take whatever you want, whenever you want. (This is a bad idea.)"
+      ],
+      "mno_choice_01": [
+        "Allow {s21}'s family to inherit her assets.",
+        "Gift them 1,000,000 denarii.",
+        "Give her a huge dowry of 1,000,000 denarii."
+      ],
+      "mno_choice_02": [
+        "Gift them 500,000 denarii.",
+        "Give her a dowry of 500,000 denarii.",
+        "The estate shall be auctioned and the funds go to the Roman state!"
+      ],
+      "mno_choice_03": [
+        "Gift them 250,000 denarii.",
+        "Give her a dowry of 250,000 denarii."
+      ],
+      "mno_choice_04": [
+        "Gift them nothing.",
+        "Give her no dowry."
+      ],
+      "mno_answer_1": [
+        "My poor brothers and sisters in faith!",
+        "Pathetic",
+        "RUN!"
+      ],
+      "mno_answere_steal": [
+        "Fund rebels",
+        "Incite a Revolt",
+        "Loot the temple"
+      ],
+      "mno_backpa": [
+        "Continue.",
+        "Leave the place."
+      ],
+      "mno_monasterio_recruitm": [
+        "Ask if somebody wants to join you.",
+        "Enter the Temple of Zeus"
+      ],
+      "mno_doante": [
+        "Make a donation to Delphi (1,000 denarii).",
+        "Make a huge donation to Delphi (10,000 denarii).",
+        "Make a medium donation to Delphi (5,000 denarii)."
+      ],
+      "mno_buy_ships": [
+        "Buy a ship (40000 denarii)",
+        "Travel to another port"
+      ],
+      "mno_choice_11_msgnor": [
+        "Aut Caesar aut Nihil!",
+        "Build a small shrine for {s33} (cost: 20,000 denarii)",
+        "Caesar was a traitor.",
+        "Continue.",
+        "I want to be like him.",
+        "Ignore it.",
+        "Just enjoy the view",
+        "Kill it.",
+        "Order to build a large temple for {s33} (cost: 100,000 denarii)",
+        "Pick it up.",
+        "The Republic would have been better. "
+      ],
+      "mno_choice_event_famous_battle": [
+        "Interesting.",
+        "Someday it will be found."
+      ],
+      "mno_choice_03_2nor": [
+        "Bribe him with 1,000 denarii to stop writing about you.",
+        "Reward him with 1,000 denarii. Let this song be played across the land."
+      ],
+      "mno_choice_12_1nor": [
+        "A mystery.",
+        "Continue.",
+        "Cut the water rations instead.",
+        "Express your sympathy and move on. ",
+        "Give your planned speech.",
+        "Make a sacrifice to the gods! (2,000 denarii)",
+        "Remain dignified and refuse to participate.",
+        "Send the scouts back into the viper nest.",
+        "Tell your men to sacrifice the ox to Jupiter!",
+        "The games are over. Do better next time.",
+        "The sea is a strange place...",
+        "Too bad the Romans didn't invent insurance... ",
+        "Turn back and find a place to camp for the night."
+      ],
+      "mno_choice_12_3nor": [
+        " Post a bounty of 50,000 denarii for the heads of these pirates to be brought to Rome.",
+        "Detach a cohort to hunt down the pirates immediately. (risky)",
+        "Emulate Caligula and throw spectators into the arena. (this is a bad idea) ",
+        "Enjoy yourself along with everyone.",
+        "Get very drunk and go wild!",
+        "Gift them enough silver to restart their business.",
+        "Give a fiery speech, playing off what happened to you.",
+        "Grab the legion's eagle and ride forward alone.",
+        "Ignore it.",
+        "Order the army forward and threaten decimation.",
+        "Postpone it.",
+        "Send your soldiers to fight the lions.",
+        "Slaughter the ox, we need meat."
+      ],
+      "mno_choice_13_1nor": [
+        "Punish the soldier, he is lying and an idiot.",
+        "Punish the soldier."
+      ],
+      "mno_choice_42_3": [
+        "Lads, go get them. You can have the woman. I want the valuables.",
+        "The soldier can have the girl, it is his right."
+      ],
+      "mno_choice_10_1": [
+        "Continue.",
+        "Free the peasant."
+      ],
+      "mno_choice_1": [
+        "Attack the thugs and help the senator.",
+        "Blackmail the senator.",
+        "Give him the money.",
+        "Here take 1,000 denarii. You can use half of the money to hire some thugs, the rest is for you.",
+        "Here take 15,000 denarii to bribe enough witnesses. Then I am sure you will win.",
+        "I also think the sacrifice should be allowed. The people demand it.",
+        "I am sure he is guilty, the facts are against him.",
+        "It must be the white ox, since it is always a good idea to sacrifice to Jupiter.",
+        "Support the building project with 75,000 denarii!",
+        "Talk with the senators.",
+        "Tell your master I will come."
+      ],
+      "mno_choice_2": [
+        "I am sorry, but there is nothing I can do for you.",
+        "I am sure he is not guilty. The facts seem to have been misinterpreted by the prosecution.",
+        "Nonsense. If we disregard the law, chaos will rule.",
+        "Support the building project with 50,000 denarii.",
+        "Tell your master I refuse.",
+        "The last sacrifice to Juno is too long ago, so we should sacrifice the white heifer.",
+        "Try to convince them with a speech"
+      ],
+      "mno_choice_4": [
+        "Do nothing.",
+        "Stay out of the discussion.",
+        "Threaten them with violence!",
+        "Very well. I will make a statement as witness."
+      ],
+      "mno_choice_3": [
+        "Do nothing.",
+        "Forget it",
+        "I can help you in other ways. I will let my troops visit this man. I am sure he will drop his lawsuit.",
+        "I will let my troops visit the prosecutor. This should help.",
+        "I will let my troops visit the trouble makers.",
+        "Support the building project with 25,000 denarii.",
+        "This case shows the weakness of our legal system ...",
+        "Try to stay out of the discussion.",
+        "Whatever..."
+      ],
+      "mno_cheat_test": [
+        "Cheat: Improve faction relation.",
+        "Cheat: Test scene."
+      ],
+      "mno_follow_me": [
+        "{s6} shall dismiss all troops and join me as fast as possible",
+        "{s6} shall return to me with his whole host as fast as possible"
+      ],
+      "mno_ask_for_help_answere1": [
+        "I don't have time for this...",
+        "I should talk with {s24} immediately",
+        "I should visit the senate immediately"
+      ],
+      "mno_choice_02_1nj": [
+        "Boys are boys. I won't punish my men.",
+        "Let him go free as there is too little evidence.",
+        "Let them go free as there is too little evidence.",
+        "Soldiers are under protection in Roman law. You and your family will be executed."
+      ],
+      "mno_choice_02_2nj": [
+        "I will be reasonable: He will be sold as slave.",
+        "I will be reasonable: I will punish the suldiers, but only for a little 'pocket money' (recieve 5,000 denarii).",
+        "I will be reasonable: They will be sold as slaves.",
+        "I will be reasonable: only you will be thrown to the beasts."
+      ],
+      "mno_choice_02_4nj": [
+        "I order to punish the soldiers properly.",
+        "I order to wip the messenger 50 times. No one should take advantage of their position.",
+        "I order to wip the messenger, but I will also punish the commoner, as he attacked the messanger."
+      ],
+      "mno_choice_03_1nj": [
+        "Punish the farmer. He must pay rent to his lord.",
+        "Throw him to the beasts, the mob demands thief's blood.",
+        "Throw them to the beasts, the mob demands it."
+      ],
+      "mno_choice_07_1nj": [
+        "Agree with the demand. (5,000 denarii)",
+        "Import some wagons of grain from other places. (50,000 denarii)"
+      ],
+      "mno_choice_07_2nj": [
+        "I do not have enough money to buy food elsewhere.",
+        "I do not have enough money..."
+      ],
+      "mno_choice_08_3nj": [
+        "Refuse and publicly humiliate the merchant, as he wanted to bribe you. Only the best will serve as captains.",
+        "Refuse. Only the best will serve as captains."
+      ],
+      "mno_choice_10_2nj": [
+        "Nonsense. Forbid the sacrifice and take the girl into your party for safety.",
+        "Take the girl into your party for safety, as she is the daughter of a soldier. But offer 10,000 denarii for another sacrific."
+      ],
+      "mno_choice_13_1nj": [
+        "Agree to this petition and accept the gift.",
+        "Agree to this petition, but for a little pocket money (5,000 denarii) from the woman.",
+        "Agree to this petition, but only if the woman ... let's say 'plays' a little bit with you.",
+        "Agree to this petition.",
+        "Agree to this petition. But don't accept the gift",
+        "The woman must pay back the unlawfully appropriated funds."
+      ],
+      "mno_choice_13_3nj": [
+        "Don't agree to this petition",
+        "Don't agree to this petition, but demand a 'gift' of 15,000 denarii from the landwoner",
+        "Don't agree to this petition.",
+        "Only agree to the man's demand for a bribe of 5,000 denarii!",
+        "The woman will not pay back anything, but there will be a 'private meeting' with the woman.",
+        "The woman will not pay back anything."
+      ],
+      "mno_choice_16_2nj": [
+        "Bribe him with money to stop (1,000 denarii).",
+        "Order your troops to make this idiot disappear."
+      ],
+      "mno_choice_17_2nj": [
+        "Goods have been confiscated, as law demands it, but the soldiers where not allowed to take the women. Hence I will release the women.",
+        "There is nothing to be done here. Away with you, mongrel!"
+      ],
+      "mno_choice_20_1nj": [
+        "Give her monetary assistance and take the gift. (500 denarii)",
+        "Give her monetary assistance. (1000 denarii)"
+      ],
+      "mno_choice_20_2nj": [
+        "Do nothing. This isn't my problem.",
+        "Give her monetary assistance but refuse the gift. (500 denarii)"
+      ],
+      "mno_choice_21_2nj": [
+        "This man is clearly dangerous, crucify him.",
+        "This man is clearly dangerous, sell him as slave."
+      ],
+      "mno_choice_22_1nj": [
+        " Let it sort itself out.",
+        "Attack tailor businesses.",
+        "Bribe the guildmaster. (cost: 5000 denarii)",
+        "Do nothing",
+        "Enact new taxes. (prospected income: 75,000 denarii)",
+        "Enact punitive taxes.",
+        "Ignoring the evidence, you settle in your supporter's favor.",
+        "Pay for the upgrades. (costs: 50,000 denarii)",
+        "Promote charity. (cost: 5,000 denarii)",
+        "Take the 'gift' and decide in her favor. (7,500 denarii)"
+      ],
+      "mno_choice_22_2nj": [
+        "I will decide in her favor, but as 'gift' I demand a night with her daughter.",
+        "The evidence is clear, and the accused is found guilty."
+      ],
+      "mno_choice_22_3nj": [
+        "Both are wrong! You exile them and confiscate their wealth. (75,000 denarii)",
+        "Refuse her proposal and humiliate her. She tried to bribe you!",
+        "Refuse her proposal."
+      ],
+      "mno_option_3": [
+        "Compensate the victims only. [25,000 denarii]",
+        "Continue.",
+        "Crucify him on stage and continue the play.",
+        "Donate nothing.",
+        "Offer her gold for the fruit.",
+        "Pledge to deliver fifteen shiploads of grain.",
+        "{s22} is right. The {s24} should not have been built near his estate. But you don't have money to pay him."
+      ],
+      "mno_option_4": [
+        "Order a deep investigation.",
+        "Pledge to deliver at least ten shiploads of grain.",
+        "{s22} is wrong. The {s24} was built for the good of the people."
+      ],
+      "mno_option_5": [
+        "Do nothing.",
+        "Pledge to deliver five shiploads of grain."
+      ],
+      "mno_choice_05_3notaxj": [
+        "Having no money for all these people, you order your men to disperse the crowd.",
+        "Run out, escorted by your men, away from the crowd."
+      ],
+      "mno_leave_jui": [
+        "Continue.",
+        "Go back.",
+        "Leave.",
+        "Propose to revoke the lex Julia et Papia.",
+        "Propose to revoke the lex frumentaria et agraria.",
+        "Propose to revoke the lex militaris.",
+        "Those statues are ugly as hell! Destroy them and crucify the artists!",
+        "Those statues are ugly as hell! Destroy them!",
+        "Very good. Exactly as I wanted."
+      ],
+      "mno_event04": [
+        "An extravagante Game, with free food and drinks (100,000 denarii)",
+        "Apologize for the misunderstanding.",
+        "Continue.",
+        "Continue. (as king)",
+        "Continue. (as lord)",
+        "Event04",
+        "Event05",
+        "Event06",
+        "Event07",
+        "Event08",
+        "Event09",
+        "Event10",
+        "Event11",
+        "Event12",
+        "Event13",
+        "Event14",
+        "Event15",
+        "Event16",
+        "Event17",
+        "Event18",
+        "Event19",
+        "Event20",
+        "Event21",
+        "Event22",
+        "Event23",
+        "Event24",
+        "Event25",
+        "Event26",
+        "Event27",
+        "Event28",
+        "Event29",
+        "Fight!",
+        "Go back.",
+        "Normal Games, with free food and drinks (50,000 denarii)",
+        "Normal Games, without any addition (25,000 denarii)",
+        "Romani ite domum!",
+        "The greatest spectacle {s10} has ever seen, with free food and drinks (300,000 denarii)",
+        "next page"
+      ],
+      "mno_op1": [
+        "Ask around.",
+        "Assist {s24}. [costs: 10,000 denarii]",
+        "Bah, I don't care.",
+        "Continue.",
+        "Damn, I should never drink again...",
+        "Establish an imperial inquisition to destroy the cult in {s13}. (cost: 25,000 denarii)",
+        "Fight alone against four opponents.",
+        "Fight alone against one opponent.",
+        "Fight alone against six opponents.",
+        "Fight alone against two opponents.",
+        "Focus on the male guests...",
+        "Go back.",
+        "I like the first.",
+        "I want both!",
+        "Listen...",
+        "Participate in the 10 vs 10 fight.",
+        "Participate in the chariot race.",
+        "Participate in the horse race.",
+        "Provide {s24} valuable help and strengthen your political ties. [cost: 15,000 denarii]",
+        "Rebuild it.",
+        "Recommend harsh punishment for the whole village to make an example. ",
+        "Talk with her.",
+        "We will get him.",
+        "Where can I find this Farbius?",
+        "You have a deal (50,000 denari)"
+      ],
+      "mno_op2": [
+        "Continue.",
+        "Decline the request",
+        "Do nothing.",
+        "Focus on breaking up the vigilante gangs. ",
+        "Focus on the female guests...",
+        "Go back.",
+        "I have no time for your tales. Just get the ships ready fast. ",
+        "I prefer the second. ",
+        "I saved your life and giving you freedom. It's a fair trade for your paint.",
+        "Leave.",
+        "Participate in the 20 vs 20 fight.",
+        "Participate in the gladiator games.",
+        "Play similar tricks to punish the town while technically following the law. (cost: 15,000 denarii)"
+      ],
+      "mno_op3": [
+        "A slave of your skills is worth his weight in gold, and a torturer will get your stash location just fine.",
+        "Continue.",
+        "Discreetly benefit your own finances. [success depends on trade skill, chance: {reg30}%]",
+        "Do no such thing.",
+        "Enter the cave",
+        "Enter the kurgan",
+        "Explore.",
+        "Get up.",
+        "Participate in the 40 vs 40 fight.",
+        "Stand back and let the gangs hunt cultists.",
+        "Stop bothering me with this and govern your province.",
+        "Try to speak with everyone...",
+        "Watch the beast fight."
+      ],
+      "mno_visit": [
+        "Alexandria paid 100,000 denarii taxes in the last months. I am sure it was only 50,000 denarii (embezzle 50,000 denarii)",
+        "Rename your estate.",
+        "Test the scene.",
+        "The Augusta is known to be piggish, I am sure she has spend 100,000 denarii not 10,000 denarii for her last meal... (embezzle 90,000 denarii)",
+        "The Princeps likes parties, I am sure for last one he spend 250,000 denarii not 120,000... (embezzle 130,000 denarii)",
+        "The townwatch ordered 10,000 denarii for new spears, I am sure it was 20,000 (embezzle 10,000 denarii)",
+        "Visit the villa."
+      ],
+      "mno_bacchus": [
+        "Visit Avaritias and Superbus villa.",
+        "Visit Gaius Lucarius villa.",
+        "Visit Lucia Sabina's house.",
+        "Visit Lucillus villa.",
+        "Visit the Christian underground temple.",
+        "Visit the villa of the senator."
+      ],
+      "mno_op4": [
+        "Just enjoy yourself and get drunk...",
+        "Participate in the 80 vs 80 fight.",
+        "Ruthlessly ravage {s24}'s business for your own gain."
+      ],
+      "mno_op5": [
+        "Force {s24} to help you increasing your standing in the realm in exchange for gold. [cost: 20,000 denarii, gain 300 influence]",
+        "Go back."
+      ]
+    },
+    "game_strings.csv": {},
+    "hints.csv": {},
+    "info_pages.csv": {},
+    "item_kinds.csv": {},
+    "item_modifiers.csv": {},
+    "parties.csv": {},
+    "party_templates.csv": {},
+    "quests.csv": {},
+    "quick_strings.csv": {},
+    "skills.csv": {},
+    "skins.csv": {},
+    "troops.csv": {},
+    "ui.csv": {
+      "ui_retreated_battle": [
+        "%s has been routed.",
+        "%s has fled from the battlefield."
+      ],
+      "ui_group_rename": [
+        "Rename Group",
+        "Rename group"
+      ]
+    },
+    "uimain.csv": {}
+  },
+  "source_format_issues": [
+    {
+      "id": "str_comment_marriage_normal_nasty",
+      "source": "strings.txt",
+      "line": 2393,
+      "issue": "unmatched closing brace"
+    },
+    {
+      "id": "qstr_X:_{reg31}__Y:_{reg3",
+      "source": "quick_strings.txt",
+      "line": 184,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_{!}DEBUG_:_failure_i",
+      "source": "quick_strings.txt",
+      "line": 1631,
+      "issue": "unmatched closing brace"
+    },
+    {
+      "id": "qstr_Size:_{reg2}__ready_",
+      "source": "quick_strings.txt",
+      "line": 2207,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_Boundaries_of_scene:",
+      "source": "quick_strings.txt",
+      "line": 2346,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_Total_slaves:_{reg10",
+      "source": "quick_strings.txt",
+      "line": 5346,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_weighted_number_slav",
+      "source": "quick_strings.txt",
+      "line": 5347,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_Check_skill:_{reg10}_",
+      "source": "quick_strings.txt",
+      "line": 5457,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_Check_skill:_{reg10}__",
+      "source": "quick_strings.txt",
+      "line": 5458,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_2_Needed_to_refil_{s1",
+      "source": "quick_strings.txt",
+      "line": 5670,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_Gold_Constraint_{s10",
+      "source": "quick_strings.txt",
+      "line": 5671,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_join_cost_per_unit_{",
+      "source": "quick_strings.txt",
+      "line": 5674,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "qstr_troops_able_to_buy_{",
+      "source": "quick_strings.txt",
+      "line": 5675,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "dlga_sussus_talk_5:sussus_talk_6",
+      "source": "conversation.txt",
+      "line": 628,
+      "issue": "literal pipe in source; engine escaping requires review"
+    },
+    {
+      "id": "dlga_lord_request_bored:close_window",
+      "source": "conversation.txt",
+      "line": 4833,
+      "issue": "unmatched closing brace"
+    },
+    {
+      "id": "menu_party_cheat",
+      "source": "menus.txt",
+      "line": 685,
+      "issue": "unclosed brace"
+    }
+  ]
+}

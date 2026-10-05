@@ -1,0 +1,27 @@
+{
+  "archive_url": "https://github.com/buttersnew/aut_caesar_aut_nihil/releases/download/v1.0.1.13/ACAN-v1.0.1.13.zip",
+  "archive_bytes": 1255687732,
+  "index_range_bytes_read": 509261,
+  "member_count": 4196,
+  "exact_or_case_matches": {
+    "woman_death_12.wav": [],
+    "disease_sound.wav": [],
+    "riot_sound.wav": []
+  },
+  "module_ini_paths": [
+    "Aut_Caesar_Aut_Nihil/module.ini"
+  ],
+  "module.ini_source_member": "Aut_Caesar_Aut_Nihil/module.ini",
+  "sounds.txt_source_member": "Aut_Caesar_Aut_Nihil/sounds.txt",
+  "total_range_bytes_read": 519604,
+  "release_commit": "aa1279d73d39c066ac34e361bfb458bf270d17ac",
+  "pinned_commit": "3ed34f35c94c974f9d2a9102750dbb4866e38f6d",
+  "release_is_ancestor_of_pinned": true,
+  "whole_archive_downloaded": false,
+  "whole_archive_hash_locally_verified": false,
+  "publisher_declared_archive_sha256": "c553f1fb57f4f8c978093e6d6871e99025b37c726831c07d2bf4fdce5f51941d",
+  "sounds.txt_sha256": "8b06d066518b7e8d07941417829ae9b71b3dcff818712c9cee291fda1291cc50",
+  "sounds.txt_matches_pinned_checkout": true,
+  "module.ini_sha256": "ef68fe8559419abaf775f64ea468be4e3c3940a8f51dfdf92fb267f3cb329331",
+  "module.ini_matches_pinned_checkout": true
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Bounded numeric audit across batches 2–3 and focused role/source review; no repeated repository fullsuite.",
+  "number_results": "Every digit-based amount matched after thousands punctuation normalization, except deliberate Chinese spelling 二百 at Werdheri encounter; 10.000 normalized to 10,000.",
+  "corrections": [
+    {
+      "id": "mno_choice_28_1nor",
+      "finding": "Compiled English says 50,00, but both compiled condition/operation and module source deduct 50000; corrected Chinese display to 50,000.",
+      "evidence": "module_system/module_game_menus.py:40185; menus.txt:1264 op 1529 removes 50000"
+    },
+    {
+      "id": "menu_save_file_corrupted",
+      "finding": "Compiler replaces source underscores with spaces even inside file name. Restore real backup filename last_savegame_backup.sav from original module source.",
+      "evidence": "module_system/module_game_menus.py:61334"
+    }
+  ],
+  "roles_reviewed": [
+    "guardian reversal (925) remains held",
+    "Gambara/Ybor sibling claim (1418) retained literally; inconsistent with surrounding mother/sons context, not silently rewritten",
+    "sick-woman bloodletting reg3 player vs companion conditional (807) retained",
+    "military appointments centurio=百夫长 / tribunus urbanae=城市卫队保民官 retained",
+    "Roman legal downgrade debtor/creditor source error in unlucky debtors (1123): translated actual narrative creditor role 债主 because Nero owes those families"
+  ]
+}

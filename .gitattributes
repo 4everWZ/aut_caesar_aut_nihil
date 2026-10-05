@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Warband UI fragments deliberately retain trailing separator spaces.
+Aut_Caesar_Aut_Nihil/languages/cns/*.csv whitespace=-blank-at-eol

@@ -1,0 +1,461 @@
+{
+  "scope": "Static filesystem/text-reference audit; no installed Warband baseline or runtime launch",
+  "counts": {
+    "Resource": {
+      "files": 108,
+      "bytes": 402621370
+    },
+    "Textures": {
+      "files": 2205,
+      "bytes": 1055336416
+    },
+    "SceneObj": {
+      "files": 925,
+      "bytes": 160606609
+    },
+    "Sounds": {
+      "files": 648,
+      "bytes": 207768039
+    },
+    "Music": {
+      "files": 119,
+      "bytes": 216766336
+    },
+    "Data": {
+      "files": 6,
+      "bytes": 238036
+    },
+    "GLShaders": {
+      "files": 36,
+      "bytes": 31266
+    },
+    "GLShadersOptimized": {
+      "files": 76,
+      "bytes": 203662
+    },
+    "Optional": {
+      "files": 4,
+      "bytes": 4421181
+    }
+  },
+  "bytes": 2082920676,
+  "lfs_pointers": [],
+  "empty_files": [],
+  "module_resources": {
+    "count": 107,
+    "missing": [],
+    "base_game_required": [
+      "test.brf",
+      "shaders.brf",
+      "helpers.brf",
+      "object_bodies.brf",
+      "scene_encounter_spot.brf",
+      "grooming_horse.brf",
+      "ani_horse_mounted.brf",
+      "simple_primitives.brf",
+      "ani_man_walk.brf",
+      "ani_twohanded.brf",
+      "ani_onehanded.brf",
+      "ani_death.brf",
+      "ani_stand_guardsman.brf",
+      "ani_human_mounted.brf",
+      "ani_lady_stand.brf",
+      "ani_poses.brf",
+      "ani_stand_shopkeeper.brf",
+      "ani_man_cheer.brf",
+      "ani_stand_onhorse.brf",
+      "ani_throw_stone.brf",
+      "ani_strikes.brf",
+      "ani_equip_arms.brf",
+      "ani_run_p.brf",
+      "ani_run_forward_left_right.brf",
+      "uni_strikes3.brf",
+      "ani_walk_sideways.brf",
+      "ani_run_sideways.brf",
+      "ani_stand.brf",
+      "ani_crouch_down.brf",
+      "ani_low_walk.brf",
+      "ani_turn_man.brf",
+      "ani_attacks_single.brf",
+      "ani_lancer.brf",
+      "ani_attacks.brf",
+      "ani_kicks.brf",
+      "ani_parry_attack.brf",
+      "ani_walk_backward.brf",
+      "ani_run_lookingsides.brf",
+      "ani_defends.brf",
+      "ani_walk_lookingsides.brf",
+      "ani_jump.brf",
+      "ani_wedding.brf",
+      "uni_jump.brf",
+      "uni_stances.brf",
+      "uni_equip.brf",
+      "uni_strike.brf",
+      "uni_throws.brf",
+      "uni_fistswing.brf",
+      "uni_lord_stand.brf",
+      "uni_defence.brf",
+      "uni_sideways.brf",
+      "barrier_primitives.brf"
+    ],
+    "invalid_ini_lines": [
+      {
+        "line": 227,
+        "text": "W"
+      }
+    ]
+  },
+  "sounds": {
+    "references": 651,
+    "local_exact": 648,
+    "case_only_matches": [],
+    "not_bundled": [
+      "woman_death_12.wav",
+      "disease_sound.wav",
+      "riot_sound.wav"
+    ]
+  },
+  "music": {
+    "references": 138,
+    "local_exact": 138,
+    "case_only_matches": [],
+    "not_bundled": []
+  },
+  "scenes": {
+    "references": 907,
+    "local_exact": 890,
+    "without_local_sco": [
+      {
+        "id": "scn_water",
+        "flags": 0,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0"
+      },
+      {
+        "id": "scn_camp_scene_horse_track",
+        "flags": 1280,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0x300028000003e8fa0000034e00004b34000059be"
+      },
+      {
+        "id": "scn_reserved4",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "28791"
+      },
+      {
+        "id": "scn_reserved5",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "117828"
+      },
+      {
+        "id": "scn_reserved6",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "6849"
+      },
+      {
+        "id": "scn_reserved7",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "6849"
+      },
+      {
+        "id": "scn_reserved8",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "13278"
+      },
+      {
+        "id": "scn_reserved9",
+        "flags": 1,
+        "mesh": "thirsty_lion",
+        "body": "bo_thirsty_lion",
+        "terrain": "0"
+      },
+      {
+        "id": "scn_reserved10",
+        "flags": 0,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0"
+      },
+      {
+        "id": "scn_reserved11",
+        "flags": 0,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0"
+      },
+      {
+        "id": "scn_reserved12",
+        "flags": 1,
+        "mesh": "thirsty_lion",
+        "body": "bo_thirsty_lion",
+        "terrain": "0"
+      },
+      {
+        "id": "scn_quick_battle_maps_end",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0x00000001300389800003a4ea000058340000637a0000399b"
+      },
+      {
+        "id": "scn_ambush_scenes_end",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0x000000013002541c00062d8b00000a01000068cb00006d9b"
+      },
+      {
+        "id": "scn_random_scene_mountain",
+        "flags": 1792,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0x0000000235e201c40005194a0000a29f00005ae800003c55"
+      },
+      {
+        "id": "scn_random_scene_snowforest_custom_end",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0x00000002ca2006000009ca7200003af08000444700001e7b"
+      },
+      {
+        "id": "scn_sea_barbarian",
+        "flags": 256,
+        "mesh": "none",
+        "body": "none",
+        "terrain": "0x0000000030000000c00d2348000000008000000000000000"
+      },
+      {
+        "id": "scn_presentation_scene",
+        "flags": 1,
+        "mesh": "ch_meet_plain_a",
+        "body": "bo_encounter_spot",
+        "terrain": "0"
+      }
+    ]
+  },
+  "compiled_tables": {
+    "checked": [
+      "actions.txt",
+      "conversation.txt",
+      "factions.txt",
+      "game_variables.txt",
+      "info_pages.txt",
+      "item_kinds1.txt",
+      "map.txt",
+      "map_icons.txt",
+      "menus.txt",
+      "meshes.txt",
+      "mission_templates.txt",
+      "music.txt",
+      "particle_systems.txt",
+      "parties.txt",
+      "party_templates.txt",
+      "postfx.txt",
+      "presentations.txt",
+      "quests.txt",
+      "quick_strings.txt",
+      "scene_props.txt",
+      "scenes.txt",
+      "scripts.txt",
+      "simple_triggers.txt",
+      "skills.txt",
+      "skins.txt",
+      "skyboxes.txt",
+      "sounds.txt",
+      "strings.txt",
+      "tableau_materials.txt",
+      "triggers.txt",
+      "troops.txt"
+    ],
+    "missing": []
+  },
+  "declared_texture_sections": {
+    "archives": [
+      "x_texture_all.brf",
+      "x_textures_engine.brf"
+    ],
+    "unique_references": 2068,
+    "not_exact_local": [
+      {
+        "name": "PictishDress_blue2.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "PictishDress_Blue2.dds"
+      },
+      {
+        "name": "b_villasevulus5_t1_bp.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "b_villasevulus5_t1_BP.dds"
+      },
+      {
+        "name": "bedyin_camel_a.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "bedyin_camel_a.DDS"
+      },
+      {
+        "name": "bedyin_camel_a_normalmap.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "bedyin_camel_a_normalmap.DDS"
+      },
+      {
+        "name": "birema.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "Birema.dds"
+      },
+      {
+        "name": "birema_nm.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "Birema_nm.dds"
+      },
+      {
+        "name": "horse_light_a.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "horse_light_a.DDS"
+      },
+      {
+        "name": "horse_light_a_normalmap.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "horse_light_a_normalmap.DDS"
+      },
+      {
+        "name": "horse_light_b.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "horse_light_b.DDS"
+      },
+      {
+        "name": "horse_light_c.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "horse_light_c.DDS"
+      },
+      {
+        "name": "jewellery.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "Jewellery.dds"
+      },
+      {
+        "name": "jewellery_normal.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "Jewellery_normal.dds"
+      },
+      {
+        "name": "jewellery_specular.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "Jewellery_specular.dds"
+      },
+      {
+        "name": "lute_diff.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "Lute_diff.dds"
+      },
+      {
+        "name": "monie_a.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "monie_a.DDS"
+      },
+      {
+        "name": "monie_a_normalmap.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "monie_a_normalmap.DDS"
+      },
+      {
+        "name": "sheep_mod_a.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "sheep_mod_a.DDS"
+      },
+      {
+        "name": "sheep_mod_a_normalmap.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "sheep_mod_a_normalmap.DDS"
+      },
+      {
+        "name": "skull.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "skull.DDS"
+      },
+      {
+        "name": "skull_normal.dds",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": "skull_normal.DDS"
+      },
+      {
+        "name": "waterbump",
+        "archives": [
+          "x_texture_all.brf"
+        ],
+        "case_match": null
+      },
+      {
+        "name": "prt_text_snow_dust_1.dds",
+        "archives": [
+          "x_textures_engine.brf"
+        ],
+        "case_match": "prt_text_snow_dust_1.DDS"
+      }
+    ],
+    "method": "Parsed complete declared texture sections in the two module texture archives; not a full BRF material/mesh graph audit."
+  },
+  "unknown_external_sounds": [
+    "woman_death_12.wav",
+    "disease_sound.wav",
+    "riot_sound.wav"
+  ],
+  "scope_notes": [
+    "load_resource archives require installed Warband CommonRes; not module-missing files.",
+    "Sound names absent locally are unresolved external dependencies, not verified Native assets.",
+    "Absent SCO does not establish missing required scene; generated scenes and marker scenes need no authored SCO.",
+    "waterbump is an extensionless engine-resource candidate; not proven missing DDS.",
+    "Case-only texture mismatches may fail on case-sensitive platforms; no filenames modified."
+  ]
+}

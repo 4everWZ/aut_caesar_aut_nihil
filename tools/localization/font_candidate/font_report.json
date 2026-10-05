@@ -1,0 +1,74 @@
+{
+  "status": "experimental, no Warband/WSE2/OpenGL in-game rendering QA",
+  "font_name": "ACAN Chinese Bitmap Candidate",
+  "font_size_pixels": 40,
+  "baseline": 47,
+  "padding_pixels": 3,
+  "outline_pixels": 1,
+  "atlas": [
+    4096,
+    4096
+  ],
+  "dds_encoding": "uncompressed 32-bit RGBA legacy DDS",
+  "glyph_count": 7560,
+  "translated_codepoints": 3620,
+  "translated_han": 3507,
+  "source_codepoints": 108,
+  "gb2312_codepoints": 7444,
+  "missing_required": 0,
+  "missing_gb2312": 0,
+  "secondary_face_glyphs": [
+    "U+1E25"
+  ],
+  "fonts": [
+    {
+      "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+      "family": "Noto Sans CJK SC",
+      "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "copyright": "© 2014-2021 Adobe (http://www.adobe.com/)."
+    },
+    {
+      "path": "/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
+      "sha256": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d",
+      "family": "Noto Sans",
+      "version": "Version 2.004; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\"",
+      "copyright": "Copyright 2015 Google LLC. All Rights Reserved."
+    }
+  ],
+  "versions": {
+    "pillow": "12.3.0",
+    "fonttools": "4.61.1",
+    "freetype": "2.14.3"
+  },
+  "inputs": {
+    "Aut_Caesar_Aut_Nihil/languages/cns/dialogs.csv": "9f3db82dfe2d6b8886240602f66ed68943e925b6a4721021dca3696af607a6a2",
+    "Aut_Caesar_Aut_Nihil/languages/cns/factions.csv": "e89e11c4d29e48be399786947589f546c932839ce50a1865cc3e5d08c3001b53",
+    "Aut_Caesar_Aut_Nihil/languages/cns/game_menus.csv": "b83d1f7c6dcfba1be5fcb9fe77376c746c5fec1a4ebb269dafff3b39782346f4",
+    "Aut_Caesar_Aut_Nihil/languages/cns/game_strings.csv": "75e9ebd9c4e65f1dbe303570e53be6890fe39634eeaef4a4e1d78a75e6bd2da5",
+    "Aut_Caesar_Aut_Nihil/languages/cns/hints.csv": "04441debcc27d4e8132afd075dbf962dd4e5afe0d084bfa07e3411dee7013c48",
+    "Aut_Caesar_Aut_Nihil/languages/cns/info_pages.csv": "bad4f3565b67741e1e5d22a30a37378db6717e3f85ee6ef539cc3c76303f285d",
+    "Aut_Caesar_Aut_Nihil/languages/cns/item_kinds.csv": "3356990a8972a7bb0ec575fc6a3aae2649a80e286f9f8d8f2a34c2a56c415a68",
+    "Aut_Caesar_Aut_Nihil/languages/cns/item_modifiers.csv": "e12ef65f809513f42f6a1e61965b3b8626dc5668ace5511269a771ec0f101105",
+    "Aut_Caesar_Aut_Nihil/languages/cns/parties.csv": "57fab49b3668fd46ffef609cf1cb461067d997c9dd63bca67c88e1bb66cca1e7",
+    "Aut_Caesar_Aut_Nihil/languages/cns/party_templates.csv": "4eb110c9ea6283a0f21b7e67d4148ec602a035650dbc98db1c0139bbd1fbd93d",
+    "Aut_Caesar_Aut_Nihil/languages/cns/quests.csv": "ab26d6e3d07365c985b11a15df6b3200d2e87024759d394cc2f476041226df20",
+    "Aut_Caesar_Aut_Nihil/languages/cns/quick_strings.csv": "83a7d760b6ad2e10ef7da33b2e6e1c39046fe4f4aafb90ce40f42a9ed50d4d09",
+    "Aut_Caesar_Aut_Nihil/languages/cns/skills.csv": "a1cb9765ae70b93c0da230bf7e9d84a953b5aa8c2065e0aa7b7870961eaf0101",
+    "Aut_Caesar_Aut_Nihil/languages/cns/skins.csv": "cce7b41c402d1cdd93ee5c1f2b6e2a50cb2f84c1873dfe6ff432252a1adb14e5",
+    "Aut_Caesar_Aut_Nihil/languages/cns/troops.csv": "045c2685f1334fae305c52436038511524444dc71e61da11e128861d4402b75e",
+    "Aut_Caesar_Aut_Nihil/languages/cns/ui.csv": "b081edb2698d94510ae9ccb6a8489936879115feb4a23dcba31ecc733420fae2",
+    "Aut_Caesar_Aut_Nihil/languages/cns/uimain.csv": "37524fba49abc1714d016b132eae98c6398e2e6a31af0229dd40b255b837f5cd"
+  },
+  "output_sha256": {
+    "Data/font_data.xml": "ce1014e0a9c830fcfbe96c1f7f87783221da632fc66be23d45042354cf1536bb",
+    "Textures/font.dds": "04d5490ed34684d873246c2be72ce19dcdd430f994b4ec583a20439956c8c9b1"
+  },
+  "qa": {
+    "bounds": true,
+    "no_overlaps": true,
+    "unique_codes": true,
+    "dds_roundtrip_exact": true,
+    "runtime_tested": false
+  }
+}

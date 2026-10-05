@@ -210,3 +210,23 @@ This repository uses GitHub Actions to automate releases and website deployment.
 *   **`static.yml`:**
     *   **Trigger:** A push to the `website/` directory, the completion of the `create-release`/`create-pre-release` workflow, or manual dispatch.
     *   **Action:** Deploys the `website/` folder to GitHub Pages. It dynamically generates download links on the website based on the latest GitHub releases (one for pre-releases, one for stable releases).
+
+## Simplified Chinese localization (partial)
+
+A draft Simplified Chinese translation is available in `Aut_Caesar_Aut_Nihil/languages/cns`.
+See [installation, coverage and maintenance instructions](docs/localization/README.md)
+and the [terminology glossary](docs/localization/terminology.md). Remaining source ambiguities, conflicting IDs and technical tokens are documented
+individually. Chinese fonts and gameplay still require in-game verification; this
+is not a complete or verified-playable localization. The original English game data is preserved.
+
+### Source-only publication status
+
+This branch publishes translation text, review documentation, localization tools and the
+font-generation recipe. It is not an installable module release. The generated
+`tools/localization/font_candidate/font.dds` texture is intentionally deferred to a
+later release; the descriptor and preview images alone are not an installable font.
+See [font prerequisites and rebuild instructions](docs/localization/FONT_CANDIDATE.md).
+The complete module candidate still has three unresolved sound dependencies,
+unverified in-game Chinese rendering, and runtime-asset redistribution questions;
+see [sound dependencies](docs/localization/SOUND_DEPENDENCIES.md) and
+[redistribution notes](docs/localization/REDISTRIBUTION.md).

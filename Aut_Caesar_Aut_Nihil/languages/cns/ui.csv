@@ -1,0 +1,752 @@
+﻿ui_music_volume|音乐音量：
+ui_sound_volume|音效音量：
+ui_mouse_sensitivity|鼠标灵敏度：
+ui_invert_mouse_y_axis|反转鼠标纵轴
+ui_enabled|启用
+ui_disabled|禁用
+ui_damage_to_player|玩家所受伤害：
+ui_reduced_to_1_over_4_easiest|减至 1/4（最简单）
+ui_reduced_to_1_over_2_easy|减至 1/2（简单）
+ui_damage_to_friends|友军所受伤害：
+ui_reduced_to_1_over_2_easiest|减至 1/2（最简单）
+ui_reduced_to_3_over_4_easy|减至 3/4（简单）
+ui_normal|正常
+ui_combat_ai|战斗 AI：
+ui_combat_speed|战斗与人物移动速度：
+ui_good|好
+ui_average_caps|一般
+ui_poor|差
+ui_faster|较快
+ui_slower|较慢
+ui_control_block_direction|格挡方向控制：
+ui_automatic_recommended|自动
+ui_manual_easy|手动（简单）
+ui_manual_hard|手动（困难）
+ui_by_mouse_movement|按鼠标移动方向
+ui_control_attack_direction|攻击方向控制：
+ui_lance_control|骑枪控制：
+ui_by_relative_enemy_position|按敌人相对位置
+ui_by_inverse_mouse_movement|按鼠标移动的反方向
+ui_battle_size|战场规模：
+ui_show_attack_direction|显示攻击方向
+ui_show_targeting_reticule|显示瞄准准星
+ui_show_names_of_friendly_troops|显示友军旗标
+ui_report_damage|显示伤害
+ui_report_shot_difficulty|显示射击难度
+ui_difficulty_rating_percentage|难度系数 = %d%%
+ui_controls|操作设置
+ui_video_options|画面设置
+ui_done|完成
+ui_factions|阵营
+ui_item_itemname|物品 - %s
+ui_prop_propname|道具 - %s
+ui_unknown_unknownname|未知 - %s
+ui_entry_point_entrypointname|入口点 %d
+ui_passage_menu_item_passagename|通道（菜单项 %d）
+ui_plant_plantname|植物 - %s
+ui_export_file_for_character_playername_already_exists_overwrite_it|角色 %s 的导出文件已存在。是否覆盖？
+ui_yes|是
+ui_no|否
+ui_set_save_file_name|请输入存档名称：
+ui_enter_new_name|请输入新名称：
+ui_export_character|导出角色
+ui_import_character|导入角色
+ui_character_playername_exported_successfully|角色 %s 导出成功。
+ui_character_playername_imported_successfully|角色 %s 导入成功。
+ui_unable_to_open_import_file|无法打开导入文件。
+ui_are_you_sure_you_want_to_import_the_character|确定要导入角色吗？
+ui_unable_to_find_character_import_file|找不到角色导入文件。
+ui_mount_and_blade_is_running_in_trial_mode_please_buy_the_game_for_importing_a_character|Mount&Blade 正以试用模式运行。购买游戏后才能导入角色。
+ui_change_skin|肤色
+ui_change_hair|发型
+ui_change_hair_color|发色
+ui_change_beard|胡须
+ui_tutorial|教程
+ui_tutorial_face_generator|使用按钮和滑块调整角色的脸部。按住头部并拖动鼠标可旋转视角。
+ui_restore|载入
+ui_cancel|取消
+ui_delete|删除
+ui_confirm_delete_game|确定要删除此存档吗？
+ui_error_removing_file|删除文件时出错……
+ui_day_datedisplay|第 %d 天（%d:%d%d）
+ui_reset_changes|重置更改
+ui_weapon_proficiencies|武器熟练度
+ui_skills|技能
+ui_attributes|属性
+ui_enter_name_here|*在此输入姓名*
+ui_edit_face|点击编辑面容
+ui_statistics|统计
+ui_next|下一步
+ui_prev|上一步
+ui_learn|学习
+ui_question_saving_policy|请选择游戏的存档方式：
+ui_saving_policy_realistic|退出时必须保存！
+ui_saving_policy_nonrealistic|允许不保存直接退出。（推荐）
+ui_tutorial_character_generation|请输入姓名并分配属性点、技能点和武器点。点击屏幕上的各项内容，可了解其对角色的影响。
+ui_str|力量
+ui_agi|敏捷
+ui_int|智力
+ui_cha|魅力
+ui_at_learning_limit|（已达学习上限）
+ui_not_enough_skill_points_to_learn|（技能点不足，无法学习）
+ui_strength|力量
+ui_agility|敏捷
+ui_intelligence|智力
+ui_charisma|魅力
+ui_not_enough_attributetype_to_learn_this_skill|（%s不足，无法学习此技能）
+ui_explanation_one_handed_weapon|决定单手剑、斧及钝器的使用能力。
+ui_explanation_two_handed_weapon|决定双手剑、巨斧及重锤的使用能力。
+ui_explanation_polearm|决定长矛、骑枪、长棍等长杆武器的使用能力。
+ui_explanation_archery|决定弓的使用能力。
+ui_explanation_crossbow|决定弩炮的使用能力。
+ui_explanation_throwing|决定标枪、飞镖、石块等投掷武器的使用能力。
+ui_explanation_firearms|决定投石索的使用能力。
+ui_explanation_strength|力量：每点增加 1 点生命值。以下技能不能超过力量的一半：铁骨、强击、强掷、强弓。
+ui_explanation_agility|敏捷：每点提供 5 个武器点，并略微提升移动速度。以下技能不能超过敏捷的一半：武器掌握、盾防、跑动、骑术、骑射、掠夺。
+ui_explanation_intelligence|智力：每点立即提供 1 个额外技能点。以下技能不能超过智力的一半：教练、追踪、战术、向导、侦察、物品管理、疗伤、手术、急救、工程、交易与经营。
+ui_explanation_charisma|魅力：每点增加 1 人的部队人数上限。以下技能不能超过魅力的一半：俘虏管理、统御、说服、演说。
+ui_level|等级：%d
+ui_xp|经验：%d
+ui_next_level_at|升级所需经验：%d
+ui_health_player|生命：%d/%d
+ui_health|生命：%d
+ui_attribute_points|属性点：%d
+ui_skill_points|技能点：%d
+ui_weapon_points|武器点：%d
+ui_mission_losses_none| 无。
+ui_mission_losses_wounded|受伤：
+ui_mission_losses_killed|阵亡：
+ui_party_losses|%s：受伤 %d 人 --- 阵亡 %d 人，共 %d 人。
+ui_casualties_sustained|伤亡情况：
+ui_advantage_change|优势变化 = %c%d
+ui_overall_battle_casualties|战斗总伤亡：
+ui_advantage_outnumbered| 敌众我寡，胜算渺茫。
+ui_advantage_major_disadvantage| 你处于明显劣势。
+ui_advantage_slight_disadvantage| 你略处下风。
+ui_advantage_balanced| 双方势均力敌。
+ui_advantage_fair_advantage| 你有一定胜算。
+ui_advantage_greatly_favored| 你在此战中占据极大优势。
+ui_tactical_advantage|战术优势：%d（%s）
+ui_order_group|指令分组：
+ui_question_save_changes|你已修改场景物体。是否保存更改？
+ui_yes_save|是，保存
+ui_no_discard_changes|否，放弃更改
+ui_everyone_control|全体！
+ui_everyone_around_control|附近的士兵！
+ui_others_control|其他人！
+ui_question_give_up_fight|放弃战斗？
+ui_give_up|放弃
+ui_keep_fighting|继续战斗
+ui_question_leave_area|离开区域
+ui_cant_retreat_there_are_enemies_nearby|无法撤退，附近有敌人！
+ui_question_retreat_battle|撤出战斗？
+ui_retreated_battle|%s 已逃离战场。
+ui_retreat|撤退
+ui_talk|交谈
+ui_duel|决斗
+ui_mount|上马
+ui_riding_skill_not_adequate_to_mount|（骑术不足，无法骑乘）
+ui_dismount|下马
+ui_exit|离开
+ui_door_to|通往
+ui_open|打开
+ui_equip|装备
+ui_baggage|行囊
+ui_access_inventory|查看物品栏
+ui_chest|箱子
+ui_passage|通道
+ui_go|前往
+ui_retreat_battle|撤出战斗
+ui_leave_area|离开区域
+ui_reports|报告
+ui_camp|扎营
+ui_terrain|地形
+ui_quests|日志
+ui_inventory|物品栏
+ui_character|角色
+ui_party|部队
+ui_paused|已暂停
+ui_click_left_button_to_cancel_wait|等待中……（左键点击返回）
+ui_midnight|午夜
+ui_late_night|深夜
+ui_dawn|黎明
+ui_early_morning|清晨
+ui_morning|上午
+ui_noon|正午
+ui_afternoon|下午
+ui_late_afternoon|午后
+ui_dusk|黄昏
+ui_evening|傍晚
+ui_level_limit_reached|已达等级上限！
+ui_explanation_level_limit|冒险者，你好！Mount&Blade 尚未激活，目前正以试用模式运行。此模式的等级上限为 8 级。如需继续游戏，请重新启动游戏，并用盒装游戏内附的 16 位序列号激活。激活后即可从此处继续游戏。现在，Mount&Blade 将保存游戏并退出。
+ui_time_limit_reached|已达时间上限！
+ui_explanation_time_limit|冒险者，你好！Mount&Blade 尚未激活，目前正以试用模式运行。此模式仅限 30 个游戏日。如需继续游戏，请重新启动游戏，并用盒装游戏内附的 16 位序列号激活。激活后即可从此处继续游戏。现在，Mount&Blade 将保存游戏并退出。
+ui_target_lost|目标丢失 
+ui_waiting|等待中。
+ui_travelling_to|正在前往 
+ui_following|正在跟随 
+ui_accompanying|正在伴随 
+ui_running_from|正在逃离 
+ui_patrolling|正在巡逻 
+ui_patrolling_around|正在周围巡逻：
+ui_holding|正在驻守 
+ui_travelling|行进中 
+ui_fighting_against|正在交战，对手：
+ui_speed_equals|速度 = %2.1f
+ui_defenders|驻军：
+ui_prisoners|俘虏：
+ui_1_hour|1 小时
+ui_n_hours|%d 小时
+ui_between_hours|%d - %d 小时
+ui_combatants|参战人数：%d
+ui_party_size|部队人数：%d
+ui_party_size_between|部队人数：%d - %d
+ui_merchant|商人
+ui_return|返回
+ui_no_cost|免费
+ui_rename|重命名
+ui_use|使用
+ui_destroy|摧毁
+ui_destructible_target|可摧毁目标
+ui_tutorial_inventory|这是交易界面。按住 Ctrl 键点击物品，可快速购买或出售。
+ui_head_armor|头部防护：%d
+ui_body_armor|身体防护：%d
+ui_leg_armor|腿部防护：%d
+ui_encumbrance|负重：%2.1f
+ui_you_dont_have_value|你没有 %s。
+ui_merchant_cant_afford_value|%s：我付不起 %s。我只有 %s。
+ui_merchant_pay_whatever|好吧，你能付多少就付多少。
+ui_merchant_think_of_something_else|嗯，我们另想办法吧。
+ui_dumping_value_items|%d 件物品将永久丢失，确定吗？
+ui_dumping_value_item|1 件物品将永久丢失，确定吗？
+ui_question_slaughter_food_and_eat|宰杀这只%s作为食物？
+ui_money_value|金钱：%s
+ui_dump|丢弃
+ui_outfit|服装
+ui_arms|武器
+ui_horse|坐骑
+ui_food|食物
+ui_reclaim_your_sold_goods|购买之前，请先取回已售出的货物！
+ui_return_your_bought_goods|出售之前，请先退回已购买的货物！
+ui_polearm_no_shield|长杆武器（不可持盾）
+ui_polearm|长杆武器
+ui_two_handed|双手武器
+ui_two_handed_one_handed|双手/单手武器
+ui_one_handed|单手武器
+ui_return_price|退货价格：%d
+ui_sell_price|出售价格：%d
+ui_reclaim_price|赎回价格：%d
+ui_buying_price|购买价格：%d
+ui_default_item|默认物品
+ui_buying_price_free|购买价格：免费
+ui_weight|重量：%2.1f
+ui_plus_value_to_head_armor|头部防护 +%d
+ui_plus_value_to_body_armor|身体防护 +%d
+ui_plus_value_to_leg_armor|腿部防护 +%d
+ui_swing|挥砍：%d%s
+ui_damage|伤害：%d%s
+ui_thrust|刺击：%d%s
+ui_accuracy|精度：%d
+ui_speed_rating|速度等级：%d
+ui_value_to_damage|伤害 %c%d
+ui_value_to_morale|部队士气 +%1.1f
+ui_resistance|抗击力：%d
+ui_size|尺寸：%d
+ui_weapon_reach|武器长度：%d
+ui_armor|防护：%d
+ui_speed|速度：%d
+ui_maneuver|操纵：%d
+ui_charge|冲撞：%d
+ui_hit_points|生命值：%d/%d
+ui_requires_value_difficulty|需要%s：%d
+ui_bonus_against_shields|对盾牌有额外伤害
+ui_cant_be_used_to_block|无法用于格挡
+ui_troop_cant_use_item|%s：我无法使用这件物品！
+ui_notification_riding_skill_not_enough|你的骑术不足以骑乘这匹马。
+ui_notification_requirements_not_met|你的技能或属性未达到此武器的要求。
+ui_notification_payment_value|你需要支付 %s。
+ui_notification_payment_receive_value|你将获得 %s。
+ui_one_handed_weapons|单手武器
+ui_two_handed_weapons|双手武器
+ui_polearms|长杆武器
+ui_archery|弓箭
+ui_crossbows|弩炮
+ui_throwing|投掷
+ui_firearms|投石索
+ui_reset|重置
+ui_release_one|释放一人
+ui_move_up|上移
+ui_move_down|下移
+ui_upgrade_one|升级一人
+ui_party_skills|队伍技能
+ui_morale|士气：%s
+ui_terrible|极差
+ui_very_low|很低
+ui_low|低
+ui_below_average|较低
+ui_average|一般
+ui_above_average|较高
+ui_high|高
+ui_very_high|很高
+ui_excellent|极佳
+ui_starving|饥饿！%d%%
+ui_weekly_cost_value|每周开支：%s
+ui_company|部队：%d / %d
+ui_prisoners_equal_value|俘虏：%d / %d
+ui_choose_prisoners|选择俘虏
+ui_choose_companions|选择同伴
+ui_rescued_prisoners|获救的俘虏
+ui_captured_enemies|俘获的敌人
+ui_disband|遣散
+ui_take_prisoner|俘虏
+ui_take_back|取回
+ui_give|给予
+ui_take|接收
+ui_sell|出售
+ui_hire|雇用
+ui_notification_cant_hire|（无法雇用：金钱不足）
+ui_uncapture|释放
+ui_capture|俘获
+ui_party_capcity_reached|（部队人数已达上限）
+ui_all|全部
+ui_joining_cost_weekly_wage|雇用费用：%d，每周薪饷：%d
+ui_weekly_wage|每周薪饷：%d 第纳尔
+ui_price|价格：%d
+ui_number_ready_to_upgrade|%d 人可以升级。
+ui_upgrade_to_value|升级为%s（%d 第纳尔）
+ui_notification_no_slot_for_upgrade|没有空位可升级为%s！
+ui_shield_broken|盾牌破碎了。
+ui_shield_cracked|盾牌裂开了。
+ui_shield_deformed|盾牌变形了。
+ui_you_hit_a_friendly_troop|你击中了友军！
+ui_hit_shield_on_back|击中了背后的盾牌！
+ui_delivered_couched_lance_damage|造成了骑枪冲刺伤害！
+ui_received_couched_lance_damage|受到了骑枪冲刺伤害！
+ui_speed_bonus_plus|速度加成：+%d%%
+ui_speed_bonus|速度加成：%d%%
+ui_cant_reload_this_weapon_on_horseback|无法在马背上装填此武器。
+ui_no_more_bolts|弩矢耗尽……
+ui_you_are_not_carrying_any_bolts|你没有携带弩矢。
+ui_no_more_arrows|箭矢耗尽……
+ui_you_are_not_carrying_any_arrows|你没有携带箭矢。
+ui_head_shot|命中头部！
+ui_delivered_number_damage|造成了 %d 点伤害。
+ui_delivered_number_damage_to_horse|对马匹造成了 %d 点伤害。
+ui_horse_charged_for_number_damage|马匹冲撞造成了 %d 点伤害。
+ui_received_number_damage|受到了 %d 点伤害。
+ui_horse_received_number_damage|马匹受到了 %d 点伤害。
+ui_value_killed_teammate|%s 杀死了一名队友！
+ui_horse_fell_dead|马匹死亡……
+ui_horse_crippled|马匹瘸了……
+ui_shot_difficulty|射击难度：%2.1f
+ui_you_have_improved_your_proficiency_in_value_to_number|你的%s熟练度提升至 %d。
+ui_your_proficiency_in_value_has_improved_by_number_to_number|你的%s熟练度提高了 +%d，达到 %d。
+ui_value_killed_by_value|%s 被 %s 杀死。
+ui_value_fell_dead|%s 死亡。
+ui_value_knocked_unconscious_by_value|%s 被 %s 击昏。
+ui_value_fell_unconscious|%s 昏迷了。
+ui_troop_routed|%s 已被击溃。
+ui_troop_panicked|%s 陷入恐慌。
+ui_troop_fled|%s 已逃离战场。
+ui_you_got_number_experience|你获得了 %d 点经验。
+ui_you_have_advanced_to_level_number|你升到了 %d 级。
+ui_value_has_advanced_to_level_number|%s 升到了 %d 级。
+ui_you_got_value|你获得了 %s。
+ui_new_quest_taken|接受新任务：%s。
+ui_quest_completed_value|任务完成：%s。
+ui_quest_succeeded_value|任务成功：%s。
+ui_quest_failed_value|任务失败：%s。
+ui_quest_concluded_value|任务结束：%s。
+ui_quest_cancelled_value|任务取消：%s。
+ui_lost_value|（失去：%s）
+ui_items_lost|（丢失物品：
+ui_party_has_nothing_to_eat|部队断粮了！
+ui_days_training_is_complete|今日训练完成……
+ui_total_experience_gained_through_training_number|训练共获得经验：%d
+ui_some_soldiers_are_ready_to_upgrade|一些士兵可以升级了。
+ui_number_of_companions_exceeds_leadership_limit|同伴人数超出了统御上限。
+ui_number_of_prisoners_exceeds_prisoner_management_limit|俘虏人数超出了俘虏管理上限。
+ui_party_morale_is_low|部队士气低落！
+ui_and_one_space|和
+ui_has_deserted_the_party|已逃离部队。
+ui_have_deserted_the_party|已逃离部队。
+ui_weekly_report|每周报告
+ui_shared_number_experience_within_party|部队分享了 %d 点经验。
+ui_got_item_value|获得物品：%s。
+ui_game_saved_successfully|游戏保存成功。
+ui_autosaving|正在自动保存……
+ui_quick_saving|正在快速保存……
+ui_cant_quick_save|战斗期间无法快速保存……
+ui_screenshot_taken_to_value|截图已保存至 %s
+ui_screenshot_failed|无法保存截图。
+ui_value_joined_your_party|%s 加入了你的部队。
+ui_value_joined_party_as_prisoner|%s 以俘虏身份加入部队。
+ui_value_has_joined_party|%s 已加入部队。
+ui_value_has_been_taken_prisoner|%s 已被俘虏。
+ui_value_left_the_party|%s 离开了部队。
+ui_number_values_left_the_party|%d 名%s离开了部队。
+ui_number_value_left_the_party|%d 名%s离开了部队。
+ui_your_relations_with_value_has_improved_from_number_to_number|你与%s的关系从 %d 提升至 %d。
+ui_your_relations_with_value_has_deteriorated_from_number_to_number|你与%s的关系从 %d 下降至 %d。
+ui_you_lost_value|你失去了 %s。
+ui_lost_item_value|丢失物品：%s。
+ui_got_number_value|获得 %d 个%s。
+ui_lost_number_value|失去 %d 个%s。
+ui_set_default_keys|恢复默认按键
+ui_undo_changes|撤销更改
+ui_press_a_key|请按一个键
+ui_return_to_game|返回游戏
+ui_options|选项
+ui_save_and_exit|保存并退出
+ui_save|保存
+ui_save_as|另存为
+ui_quit_without_saving|不保存退出
+ui_empty_slot|空存档位
+ui_game_saved|游戏已保存……
+ui_confirm_overwrite|%s 的存档将被覆盖。确定吗？
+ui_dynamic_lighting|动态光照
+ui_character_shadows|人物阴影
+ui_grass_density|草地密度：
+ui_environment_shadows|环境阴影
+ui_realistic_shadows_on_plants|植物真实阴影：
+ui_particle_systems|粒子系统
+ui_gamma|显示器伽马值：
+ui_character_detail|人物细节：
+ui_character_shadow_detail|人物阴影细节：
+ui_blood_stains|血迹：
+ui_on|开启
+ui_off|关闭
+ui_near_player_only|仅玩家附近
+ui_default|默认
+ui_3d_grass|立体草地：
+ui_number_of_ragdolls|布娃娃数量：
+ui_number_of_corpses|尸体数量：
+ui_unlimited|无限制
+ui_anisotropic_filtering|各向异性过滤
+ui_fast_water_reflection|快速水面反射
+ui_maximum_framerate|最高帧率：
+ui_show_framerate|显示帧率：
+ui_estimated_performance|
+ui_change_graphics_settings_explanation|部分设置将在进入新区域后生效。
+ui_start_tutorial|开始教程
+ui_start_a_new_game|开始新游戏
+ui_restore_a_saved_game|载入游戏
+ui_exit_to_windows|退出
+ui_credits|制作人员
+ui_version_value|v%s
+ui_active_quests|进行中的任务
+ui_finished_quests|已结束的任务
+ui_given_on_date|接受日期：%s
+ui_days_since_given|接受后经过天数：%d
+ui_quest_progression_number|任务进度：%d%%
+ui_too_many_quests|任务过多
+ui_ok|确定
+ui_move_forward|向前移动
+ui_move_backward|向后移动
+ui_move_left|向左移动
+ui_move_right|向右移动
+ui_action|动作
+ui_jump|跳跃
+ui_attack|攻击
+ui_parry_then_attack|反击
+ui_defend|防御
+ui_kick|踢击
+ui_equip_weapon_1|装备物品 1
+ui_equip_weapon_2|装备物品 2
+ui_equip_weapon_3|装备物品 3
+ui_equip_weapon_4|装备物品 4
+ui_equip_next_weapon|切换下一件武器
+ui_equip_next_shield|切换下一面盾牌
+ui_sheath_weapon|收起武器
+ui_character_window|角色界面
+ui_inventory_window|物品栏界面
+ui_party_window|部队界面
+ui_quests_window|任务界面
+ui_game_log_window|游戏日志界面
+ui_leave_location_retreat|离开地点/撤退
+ui_zoom|拉近视野
+ui_view_outfit|查看装备
+ui_toggle_first_person_view|切换第一人称视角
+ui_view_orders|查看指令
+ui_quick_save|快速保存
+ui_no_key_assigned|未设置按键
+ui_new_enemies_have_arrived|敌军增援已到达。
+ui_reinforcements_have_arrived|援军已到达。
+ui_report_casualties|显示伤亡
+ui_report_experience|显示经验
+ui_current_level_value|当前等级：%d
+ui_base_attribute_value|基础属性：%s
+ui_battle_controls|战斗操作
+ui_map_controls|地图操作
+ui_general_controls|通用操作
+ui_zoom_in|放大
+ui_zoom_out|缩小
+ui_wait|等待
+ui_take_screenshot|截图
+ui_randomize|随机
+ui_hint|格言
+ui_press_left_mouse_button_to_continue|点击鼠标左键继续……
+ui_loot|战利品
+ui_cut_short|砍
+ui_pierce_short|刺
+ui_blunt_short|钝
+ui_battle|战斗
+ui_siege|攻城
+ui_troops|部队：
+ui_loading_module_info_file|
+ui_processing_ini_file|
+ui_loading_music|
+ui_loading_data|
+ui_loading_setting_data|
+ui_loading_textures|
+ui_finished|完成。
+ui_creating_game|正在创建游戏……
+ui_loading_savegame_file|正在载入存档文件……
+ui_loading_map_file|正在载入地图文件……
+ui_initializing_map|正在初始化地图……
+ui_launching_game|正在启动游戏……
+ui_capital_battle|战斗：
+ui_capital_versus|--对阵--
+ui_tracks|足迹
+ui_battleground|战场
+ui_order_1|选择指令 1
+ui_order_2|选择指令 2
+ui_order_3|选择指令 3
+ui_order_4|选择指令 4
+ui_order_5|选择指令 5
+ui_order_6|选择指令 6
+ui_order_button_hold_this_position|坚守此处
+ui_order_button_follow_me|跟我来
+ui_order_button_charge|冲锋
+ui_order_button_stand_ground|原地坚守
+ui_order_button_retreat|撤退
+ui_order_button_advance|前进十步
+ui_order_button_fall_back|后退十步
+ui_order_button_spread_out|散开
+ui_order_button_stand_closer|靠拢
+ui_order_button_mount_horses|上马
+ui_order_button_dismount|下马
+ui_order_button_hold_fire|停止射击
+ui_order_button_fire_at_will|自由射击
+ui_order_button_use_blunt_weapons|只用钝器
+ui_order_button_use_any_weapon|自由使用武器
+ui_order_button_movement_orders|移动指令
+ui_order_button_formation_orders|阵形指令
+ui_order_button_fire_orders|射击指令
+ui_follow_me_e_|%s，跟我来！
+ui_charge_e_|%s，冲锋！！！
+ui_stand_ground_e_|%s，原地坚守！
+ui_retreat_e_|%s，撤退！
+ui_mount_horses_e_|%s，上马！
+ui_dismount_e_|%s，下马！
+ui_advance_e_|%s，前进十步！
+ui_fall_back_e_|%s，后退十步！
+ui_stand_closer_e_|%s，靠拢！
+ui_spread_out_e_|%s，散开！
+ui_use_blunt_weapons_e_|%s，只用钝器！
+ui_use_any_weapon_e_|%s，自由使用武器！
+ui_hold_fire_e_|%s，停止射击！
+ui_fire_at_will_e_|%s，自由射击！
+ui_hold_this_position_e_|%s，坚守此处！
+ui_infantry|步兵
+ui_archers|弓箭手
+ui_cavalry|骑兵
+ui_companions|同伴
+ui_everyone_hear_me|全体，听令！
+ui_everyone|全体
+ui_everyone_around_me|附近的士兵
+ui_str_hear_me|%s，听令！
+ui_str_and_str|%s和%s
+ui_str_comma_str|%s，%s
+ui_need_to_learn_prisoner_management|学习俘虏管理技能后才能俘虏敌人。
+ui_game_log|事件日志
+ui_recent_messages|消息
+ui_custom_battle|自定义战斗
+ui_player|玩家
+ui_value_denars|%d 第纳尔
+ui_back|后退
+ui_forward|前进
+ui_display_on_map|在地图上显示
+ui_info_pages|概念
+ui_troops2|人物
+ui_locations|地点
+ui_click_button_to_view_note|点击链接查看记录
+ui_this_page_contains_no_information|本页暂无信息
+ui_other_pages_that_link_here|链接到此处的其他页面：
+ui_report_is_value_days_old|（报告来自 %d 天前）
+ui_report_is_current|（最新报告）
+ui_button_party_member_healthy_total|%s（%d/%d）
+ui_button_party_member_total|%s（%d）
+ui_button_party_member_hero_percentage_wounded|%s（%d%% - 受伤）
+ui_button_party_member_hero_percentage|%s（%d%%）
+ui_percentage_value|%d%%
+ui_full|完整
+ui_quick|快速
+ui_none|无
+ui_change|更改
+ui_how_to_change|如何更改？
+ui_change_directx_explanation|首次启动游戏时，在启动菜单中点击“配置”，即可在 DirectX 7 和 DirectX 9 之间切换渲染方式。
+ui_dropping_picking_up|丢下%s；拾取%s。
+ui_dropping|丢下%s。
+ui_picking_up|拾取%s。
+ui_unable_to_take|无法拾取。
+ui_age|年龄
+ui_cannot_be_used_on_horseback|无法在马背上使用
+ui_enable_vertex_shaders2|渲染方式：
+ui_screen_size2|屏幕分辨率：
+ui_use_desktop_resolution2|使用桌面分辨率
+ui_shadow_quality2|阴影质量：
+ui_m_low2|低
+ui_m_high2|高
+ui_m_ultra_high2|极高
+ui_off2|关闭
+ui_group_header|兵种分组
+ui_group_rename|重命名分组
+ui_group_1|步兵
+ui_group_2|弓箭手
+ui_group_3|骑兵
+ui_group_4|未命名 1
+ui_group_5|未命名 2
+ui_group_6|未命名 3
+ui_group_7|未命名 4
+ui_group_8|未命名 5
+ui_group_9|未命名 6
+ui_group_close|关闭
+ui_party_b_group_information|%s属于%s分组
+ui_thrown_or_s|投掷/%s
+ui_ranged_damage|远程：%d%s
+ui_overall_quality|整体质量
+ui_shader_quality|着色器质量：
+ui_flora_lod_detail|树木细节：
+ui_flora_degrade_distance|树木细节降低距离：
+ui_antialiasing|抗锯齿：
+ui_use_depth_effects|使用景深效果
+ui_hdr_mode|HDR 模式：
+ui_autoexpore|自动曝光
+ui_choose_profile|选择档案
+ui_create|创建
+ui_edit|编辑
+ui_join_game|加入游戏
+ui_host_game|创建主机
+ui_custom|自定义
+ui_medium|中
+ui_male|男
+ui_female|女
+ui_gender|选择性别：
+ui_edit_profile|编辑档案
+ui_new_profile|新建档案
+ui_enter_username|输入用户名：
+ui_invalid_username|用户名只能包含字母、数字或 _ - * [ ] ~ 字符。
+ui_confirmation|确定吗？
+ui_multiplayer|多人游戏
+ui_server_name|服务器
+ui_module_name|模组
+ui_game_type|游戏类型
+ui_map_name|地图
+ui_ping|延迟
+ui_dedicated|专用服务器
+ui_number_of_players|玩家人数
+ui_password_protected|密码
+ui_connect|连接
+ui_local_area_network|局域网
+ui_internet|互联网
+ui_favorites|收藏
+ui_source|来源：
+ui_server_password|服务器密码：
+ui_refresh|刷新
+ui_start_search|开始搜索
+ui_add_to_favorites|添加到收藏
+ui_remove_from_favorites|从收藏中移除
+ui_use_speedtree|使用 SpeedTree
+ui_use_instancing|使用实例化
+ui_error|错误
+ui_error_server_full|服务器已满。
+ui_error_server_full_for_non_private|未持有私人会员密码的玩家名额已满。
+ui_error_server_password_incorrect|密码错误。
+ui_error_incorrect_serial|序列号错误。
+ui_error_incorrect_authorization_key|授权密钥错误。
+ui_error_banned_from_server|你已被此服务器封禁。
+ui_error_username_taken|你的档案名称已被其他玩家使用。
+ui_error_authentication_failed|身份验证失败。
+ui_unable_to_connect_to_server|无法连接服务器。
+ui_connection_to_server_is_lost|与服务器的连接已断开。
+ui_kicked_from_server|已被踢出服务器。
+ui_switch_to_module_question|此服务器运行的模组与你当前运行的不同。是否让 Mount&Blade 切换至该模组？
+ui_download_module_question|此服务器运行的模组尚未安装在你的电脑上。是否现在访问该模组的下载网站？
+ui_download_mb_new_version_question|此服务器运行的 Mount&Blade 版本（%d.%d%d%d）高于你的版本（%d.%d%d%d）。是否现在访问 TaleWorlds 下载网站？
+ui_download_mb_old_version_question|此服务器运行的 Mount&Blade 版本（%d.%d%d%d）低于你的版本（%d.%d%d%d）。
+ui_download_module_new_version_question|此服务器运行的模组版本（%d.%d%d%d）高于你的版本（%d.%d%d%d）。是否现在访问该模组的下载网站？
+ui_download_module_old_version_question|此服务器运行的模组版本（%d.%d%d%d）低于你的版本（%d.%d%d%d）。
+ui_authenticating_with_steam|正在通过 Steam 验证身份……
+ui_validating_serial_number|正在验证序列号……
+ui_scanning_lan|正在扫描局域网……
+ui_retrieving_servers|正在获取服务器列表……
+ui_shield_size2|尺寸：%dx%d
+ui_click_to_view_notes|点击查看记录
+ui_retrieving_server_infos|正在获取服务器信息（%d）……
+ui_connecting_to_server|正在连接服务器……
+ui_requesting_to_join_the_game|正在请求加入游戏……
+ui_loading|正在载入……
+ui_group_value_control|第 %d 组！
+ui_drop_weapon|丢弃武器
+ui_multiplayer_message_all|向所有人发送消息
+ui_multiplayer_message_team|向队友发送消息
+ui_command_line|命令行（警告：使用作弊模式可能损坏存档）
+ui_use_ranged_weapon_as_melee|切换武器模式
+ui_send_message_all|向所有人发送消息
+ui_send_message_team|向队友发送消息
+ui_select|选择
+ui_context_menu|上下文菜单
+ui_round_starts_in_value_seconds|本回合将在 %d 秒后开始……
+ui_watching_value|正在跟随 %s
+ui_capital_spec|观战
+ui_capital_dead|阵亡
+ui_instancing_error1|无法锁定实例缓冲区（大小：%d），已禁用网格实例化（错误代码：%d）
+ui_instancing_error2|无法容纳实例化物体，已禁用网格实例化
+ui_by_keyboard|按移动键
+ui_combat_speed_slowest|最慢
+ui_combat_speed_slower|较慢
+ui_combat_speed_normal|正常
+ui_combat_speed_faster|较快
+ui_combat_speed_fastest|最快
+ui_module_newer_than_application|所选模组需要更新版本的游戏。
+ui_module_older_than_application|所选模组需要更旧版本的游戏。
+ui_unbalanced|不平衡
+ui_can_crush_through_blocks|可击穿格挡
+ui_turn_camera_with_horse|第一人称视角随马匹转动：
+ui_widescreen_mode_on|已启用多屏模式
+ui_widescreen_mode_off|已禁用多屏模式
+ui_notification_cant_upgrade|（无法升级：金钱不足）
+ui_turn_never|从不
+ui_turn_ranged_only|仅远程战斗
+ui_turn_melee_only|仅近战
+ui_turn_always|始终
+ui_general_options|常规选项
+ui_vac_enabled|已启用 Valve 反作弊系统
+ui_campaign_ai|匪徒队伍规模：
+ui_downloading_map|正在下载地图（%d KB）
+ui_download_completed|下载完成。
+ui_server_filter|服务器筛选
+ui_has_players|有玩家
+ui_is_not_full|未满员
+ui_is_password_free|无密码
+ui_native_only|仅 Native
+ui_ping_limit|延迟上限
+ui_filter_info|已筛除 %d 场游戏和 %d 名玩家
+ui_is_version_compatible|与模组兼容
+ui_ttnet_account|TTNET Oyun 账号
+ui_username|用户名
+ui_password|密码
+ui_error_incorrect_username_or_password|用户名或密码错误
+ui_validating_account|正在验证账号……
+ui_plase_enter_your_serial_key|请输入序列号
+ui_texture_detail2|纹理细节：
+ui_antialiasing2|抗锯齿：
+ui_napoleonic_key_does_not_exist|此模组需要《拿破仑战争》DLC 才能游玩！
+ui_delete_module_workshop|确定要取消订阅此模组吗？
+ui_delete_module|确定要删除此模组吗？
+ui_delete_native_module|无法删除原生模组。
+ui_incompatible_module|此服务器与你当前的模组不兼容。你可以使用配置工具更换模组。
+ui_crouch|蹲下
+ui_change_accessories|耳饰
+ui_troop_upgrades|自定义

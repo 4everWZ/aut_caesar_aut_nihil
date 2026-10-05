@@ -1,0 +1,37 @@
+{
+  "scope": "Independent bounded review, not exhaustive narrative QA. Read 15 philosophy lectures; selected prayers and imperial requests for negation, numeric and role semantics. Compared digit-based numeric tokens across all 620 staged rows in shards12–14.",
+  "corrections": [
+    {
+      "ids": [
+        "str_dplmc_sister_wife",
+        "str_dplmc_co_husband",
+        "str_dplmc_co_spouse"
+      ],
+      "evidence": "module_system/module_scripts.py:23197–23207 explicitly polygamy between two people married to same person. Tests identical nonnegative spouse IDs; tests only gender_1 to select sister-wife vs co-husband. Shared spouse gender untested. co-spouse is generic lexical counterpart, not directly selected in this branch.",
+      "reason": "Avoid assuming shared spouse is male/female; explicitly no biological sibling relationship."
+    },
+    {
+      "ids": [
+        "str_emperor_request_text_11"
+      ],
+      "evidence": {
+        "category": "game_strings.csv",
+        "id": "str_emperor_request_text_11",
+        "text": "I am the second child of an old noble family. We may not have the wealth and influence of today's great powerhouses, but it is enough to afford me the liberty to study and follow politics, which is my great passion. I am in awe of your genius and everything you have done to advance the glory of Rome, oh Divine! However, I do have different views on a couple of subjects that I would like to share with you. ^^I assure you I am no beggar and my family does not stand to benefit one coin from these proposals. I only want to help you and serve Rome. If you would grant me a half hour to explain my views, it would truly be a blessing.",
+        "source": "strings.txt",
+        "line": 5378,
+        "runtime": true,
+        "classification": "text"
+      },
+      "reason": "second child means second-born child, not necessarily second son. 次子 introduces sex and son-only ordering absent in source."
+    }
+  ],
+  "passed_samples": [
+    "prayer negations: crush not my heart, ne nos inducas; preserved",
+    "Plato lectures justice counterexamples, democracy collapse and no legislative power for nightly assembly; preserved",
+    "Epicurus avoid marriage, do not fear death/gods, no politics; preserved",
+    "imperial requests: two dozen veterans=二十四; four ships minus three=一艘 surviving; half hour=半小时; one year rent=一年; no fatalities yet preserved"
+  ],
+  "numeric_result": "Only five differences from digit-token comparison; all equivalent Chinese number spelling: 700/300000,3:2,8,400/100000,30. No numeric correction needed.",
+  "interpretation_note": "Source lecture timekratia is described as rule of property owners while Chinese uses 荣誉政体. Existing explanation preserves property-owner meaning; left unchanged because source/technical term ambiguity should not be silently rewritten."
+}
