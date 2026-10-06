@@ -172,6 +172,13 @@ class PackageTests(unittest.TestCase):
             self.build()
         self.assertFalse(self.output.exists())
 
+    def test_only_patch_workflow_is_allowed(self):
+        self.changed.append('.github/workflows/localization-prerelease.yml')
+        self.build()
+        self.changed.append('.github/workflows/create-release.yml')
+        with self.assertRaises(SystemExit):
+            self.build(self.output.with_name('rejected.zip'))
+
 
 class GlyphTests(unittest.TestCase):
     def test_descriptor_and_translation_values_are_compared_without_ids(self):

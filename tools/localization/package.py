@@ -34,7 +34,7 @@ def main():
     git('merge-base', '--is-ancestor', BASE, 'HEAD')
     changed = git('diff', '--name-only', '-z', BASE, 'HEAD').decode().split('\0')
     def allowed(path):
-        if path in ('README.md', '.gitattributes'):
+        if path in ('README.md', '.gitattributes', '.github/workflows/localization-prerelease.yml'):
             return True
         if path.startswith('tools/localization/font_candidate/'):
             return Path(path).suffix in ('.dds', '.xml', '.txt', '.json', '.png')

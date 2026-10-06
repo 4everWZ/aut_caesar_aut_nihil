@@ -1,0 +1,74 @@
+name: Chinese localization patch
+
+on:
+  push:
+    branches: [localization/zh-cn]
+    tags: ['zh-cn-preview-*']
+  pull_request:
+    branches: [main, localization/zh-cn]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test localization tooling
+        run: python -B -m unittest discover -s tools/localization -p 'test_*.py'
+      - name: Validate translations
+        run: python -B tools/localization/check.py --check
+      - name: Build and verify reproducibility
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/patch"
+          python -B tools/localization/package.py --output "$RUNNER_TEMP/patch/ACAN-zh-cn-patch.zip"
+          python -B tools/localization/package.py --output "$RUNNER_TEMP/repeat.zip"
+          cmp "$RUNNER_TEMP/patch/ACAN-zh-cn-patch.zip" "$RUNNER_TEMP/repeat.zip"
+          cd "$RUNNER_TEMP/patch"
+          sha256sum ACAN-zh-cn-patch.zip > SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chinese-localization-patch
+          path: ${{ runner.temp }}/patch/*
+          if-no-files-found: error
+
+  prerelease:
+    if: startsWith(github.ref, 'refs/tags/zh-cn-preview-')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: chinese-localization-patch
+          path: patch
+      - name: Publish a new patch prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd patch
+          sha256sum --check SHA256SUMS
+          cat > "$RUNNER_TEMP/notes.md" <<'NOTES'
+          简体中文汉化补丁预览版：仅包含汉化文本、文档和开发审阅补丁。
+          汉化尚未全部完成，未经过游戏内测试。需要安装匹配的原版模组；安装前备份 cns 目录。
+          不包含字体、着色器、声音或完整模组。中文字体要求请阅读包内 FONT_OPTIONS.md。
+          完整模组待资源授权及缺失声音问题解决后另行发布。
+          NOTES
+          gh release create "$RELEASE_TAG" ACAN-zh-cn-patch.zip SHA256SUMS \
+            --verify-tag --prerelease --latest=false \
+            --title "ACAN 简体中文补丁预览版 $RELEASE_TAG" \
+            --notes-file "$RUNNER_TEMP/notes.md"
