@@ -1,14 +1,12 @@
 # Experimental Chinese bitmap-font candidate
 
-## Source-only branch notice
+## Generated full-module integration
 
-The generated 64 MiB `tools/localization/font_candidate/font.dds` texture is intentionally
-not published in this branch and is deferred to a later release. The retained descriptor,
-previews and report document the audited build; they do not form an installable font
-without the texture. Rebuild using the instructions below and obtain both external
-OFL-licensed Noto outline inputs at the recorded versions and SHA-256 hashes. Those
-original outlines are not included in this source publication. Matching dependency
-and FreeType versions are also required for byte-identical regeneration.
+The texture remains a generated build output, not a large tracked source blob.
+`prepare_full_font.sh` downloads pinned OFL font packages, checks package and outline
+hashes, and regenerates the complete descriptor/atlas/report outside the checkout.
+The full-module packager integrates that verified pair with its full OFL notice.
+Both external outlines retain the provenance and copyright notices below.
 
 This is an **optional, untested rendering candidate**, not a verified Warband font fix. It is generated entirely from separately licensed Noto outlines. It does not copy the module's existing glyph imagery, change shaders, or replace the base module's font automatically. Keep the existing-game Chinese fallback procedure in [FONT_OPTIONS.md](FONT_OPTIONS.md) available as an alternative.
 

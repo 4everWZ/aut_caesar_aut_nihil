@@ -1,7 +1,15 @@
 import unittest
-from package_module import archive_path
+from package_module import archive_path, classify_missing
 
 class LayoutTests(unittest.TestCase):
+    def test_upstream_audio_is_a_warning_not_structural_failure(self):
+        audit = dict(module_resources={'missing': []}, compiled_tables={'missing': []},
+                     unknown_external_sounds=['riot_sound.wav'])
+        structural, audio = classify_missing(audit)
+        self.assertEqual(structural, [])
+        self.assertEqual(audio, ['riot_sound.wav'])
+        audit['compiled_tables']['missing'] = ['troops.txt']
+        self.assertEqual(classify_missing(audit)[0], ['troops.txt'])
     def test_runtime_layout(self):
         self.assertEqual(archive_path('Aut_Caesar_Aut_Nihil/module.ini'), 'Modules/Aut_Caesar_Aut_Nihil/module.ini')
         self.assertEqual(archive_path('Aut_Caesar_Aut_Nihil/languages/cns/ui.csv'), 'Modules/Aut_Caesar_Aut_Nihil/languages/cns/ui.csv')

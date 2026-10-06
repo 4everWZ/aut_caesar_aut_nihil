@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a full-tree review candidate, never silently label missing assets complete."""
+"""Build an untested full-module installer preserving the pinned upstream runtime."""
 from pathlib import Path
 import argparse, hashlib, json, subprocess, zipfile
 from datetime import datetime, timezone
@@ -8,6 +8,12 @@ ROOT = Path(__file__).resolve().parents[2]
 MODULE = 'Aut_Caesar_Aut_Nihil'
 FONT = ROOT / 'tools/localization/font_candidate'
 EXCLUDE = {'fxc.exe', 'compile_fx.bat'}
+BASE = '3ed34f35c94c974f9d2a9102750dbb4866e38f6d'
+
+def classify_missing(audit):
+    # Missing upstream audio is disclosed, not silently substituted or fatal to packaging.
+    return (audit['module_resources']['missing'] + audit['compiled_tables']['missing'],
+            audit['unknown_external_sounds'])
 
 def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
@@ -24,6 +30,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--output', required=True, type=Path)
     ap.add_argument('--allow-incomplete-review', action='store_true', help='Explicitly permit documented missing dependencies; package remains INCOMPLETE')
+    ap.add_argument('--font-dir', type=Path, default=FONT, help='Validated generated OFL font directory outside the checkout')
     args = ap.parse_args()
     output = args.output.resolve()
     if output == ROOT or ROOT in output.parents:
@@ -31,44 +38,62 @@ def main():
     if git('status', '--porcelain').strip():
         ap.error('Commit reviewed changes before packaging')
     audit = json.loads((ROOT/'docs/localization/asset_audit.json').read_text())
-    missing = audit['module_resources']['missing'] + audit['compiled_tables']['missing'] + audit['unknown_external_sounds']
+    structural_missing, missing = classify_missing(audit)
     if audit['lfs_pointers']:
         ap.error('LFS pointers cannot be packaged as assets')
-    if missing and not args.allow_incomplete_review:
-        ap.error('Unresolved required inputs: ' + ', '.join(missing) + '; use --allow-incomplete-review only for an explicitly incomplete review bundle')
-    for name in ('font_data.xml', 'font.dds', 'OFL.txt', 'font_report.json'):
-        if not (FONT/name).is_file():
+    if structural_missing:
+        ap.error('Missing runtime structure: ' + ', '.join(structural_missing))
+    git('merge-base', '--is-ancestor', BASE, 'HEAD')
+    changed = git('diff', '--name-only', BASE, 'HEAD', '--', MODULE).decode().splitlines()
+    unexpected = [name for name in changed if not name.startswith(MODULE+'/languages/cns/')]
+    if unexpected:
+        ap.error('Upstream runtime changed: ' + ', '.join(unexpected))
+    font = args.font_dir.resolve()
+    for name in ('Data/font_data.xml', 'Textures/font.dds', 'OFL.txt', 'font_report.json'):
+        if not (font/name).is_file():
             ap.error('Missing font candidate: ' + name)
+    report = json.loads((font/'font_report.json').read_text())
+    for name, digest in report['output_sha256'].items():
+        if hashlib.sha256((font/name).read_bytes()).hexdigest() != digest:
+            ap.error('Font output checksum mismatch: ' + name)
+    if report['missing_required'] or report['missing_gb2312']:
+        ap.error('Generated font lacks required glyphs')
+    for name, digest in report['inputs'].items():
+        if hashlib.sha256(git('show', 'HEAD:' + name)).hexdigest() != digest:
+            ap.error('Font generated for different translation input: ' + name)
+    if (font/'OFL.txt').read_bytes() != git('show', 'HEAD:tools/localization/font_candidate/OFL.txt'):
+        ap.error('Font license must match the committed complete OFL notice')
     commit = git('rev-parse','HEAD').decode().strip()
     stamp = datetime.fromtimestamp(int(git('show','-s','--format=%ct','HEAD')),timezone.utc).timetuple()[:6]
     tracked = git('ls-files','-z').decode().split('\0')
-    if any(str((FONT/name).relative_to(ROOT)) not in tracked for name in ('font_data.xml','font.dds','OFL.txt','font_report.json')):
-        ap.error('Font inputs must be tracked and committed')
     entries = {}
     for name in tracked:
         if name.startswith(MODULE+'/'):
             target=archive_path(name)
-            if target: entries[target]=ROOT/name
+            if target:
+                # Retain exact baseline runtime bytes; only translation and font overlays differ.
+                entries[target]=ROOT/name
     # Deliberate packaging-only font substitution; source mod font is unchanged.
-    entries[f'Modules/{MODULE}/Data/font_data.xml']=FONT/'font_data.xml'
-    entries[f'Modules/{MODULE}/Textures/font.dds']=FONT/'font.dds'
+    entries[f'Modules/{MODULE}/Data/font_data.xml']=font/'Data/font_data.xml'
+    entries[f'Modules/{MODULE}/Textures/font.dds']=font/'Textures/font.dds'
     entries[f'Modules/{MODULE}/LICENSE']=ROOT/'LICENSE'
     entries[f'Modules/{MODULE}/UPSTREAM_README.md']=ROOT/'README.md'
-    entries[f'Modules/{MODULE}/FONT_OFL.txt']=FONT/'OFL.txt'
+    entries[f'Modules/{MODULE}/FONT_OFL.txt']=font/'OFL.txt'
+    entries[f'Modules/{MODULE}/THIRD_PARTY_NOTICES.md']=ROOT/'docs/localization/REDISTRIBUTION.md'
     for name in tracked:
         if name.startswith('docs/localization/') and Path(name).suffix in ('.md','.json'):
             entries['Documentation/'+name.removeprefix('docs/')]=ROOT/name
-    entries['Review/font_report.json']=FONT/'font_report.json'
-    entries['Review/font-preview.png']=FONT/'comparison.png'
+    entries['Review/font_report.json']=font/'font_report.json'
     sums={}
     metadata=dict(commit=commit,base_commit='3ed34f35c94c974f9d2a9102750dbb4866e38f6d',
-        package_kind='full_tree_incomplete_review_candidate' if missing else 'full_tree_untested_prerelease_candidate',
-        complete=False if missing else None,in_game_tested=False,unresolved_inputs=missing,
+        package_kind='full_module_untested_installer',
+        in_game_tested=False,upstream_missing_audio=missing,public_redistribution='Roman Models Extravaganza category/permission confirmation pending',
         excluded_build_tools=sorted(EXCLUDE),font='OFL Chinese atlas candidate; untested in engine',gameplay_modified=False)
-    status='INCOMPLETE REVIEW BUNDLE — NOT A VERIFIED INSTALLABLE RELEASE' if missing else 'UNTESTED PRERELEASE CANDIDATE'
+    status='完整模组汉化安装包 / FULL MODULE LOCALIZED INSTALLER — 未实机测试 / NOT IN-GAME TESTED'
     notice=(status+'\n\nContains the full tracked module runtime tree, not merely a language overlay.\n'
         'Unresolved audio inputs: '+', '.join(missing)+'\n'
-        'Do not publish this as a complete or verified-playable module. Obtain missing assets or verified installed-game fallback evidence first.\n'
+        'These sounds are absent from the preserved upstream baseline; no substitutes or gameplay edits are made. Runtime impact is unverified.\n'
+        'Public redistribution awaits the specific Roman Models Extravaganza permission/category confirmation in ROMAN_MODELS_PERMISSION.md.\n'
         'For controlled testing, copy Modules/Aut_Caesar_Aut_Nihil into the game Modules directory, after backing up any existing module.\n'
         'Requires a lawful Warband installation and its Native/CommonRes resources; those game assets are not included.\n'
         'Select Simplified Chinese. The included OFL Chinese font is a static-checked candidate, not in-game validated.\n'
@@ -83,7 +108,8 @@ def main():
         with zipfile.ZipFile(temp,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6,allowZip64=True) as z:
             for name,p in sorted(entries.items()):
                 if p.is_symlink():raise ValueError('Symlink input: '+str(p))
-                write_bytes(z,name,p.read_bytes())
+                relative = p.relative_to(ROOT).as_posix() if p.is_relative_to(ROOT) else None
+                write_bytes(z,name,git('show','HEAD:'+relative) if relative else p.read_bytes())
             write_bytes(z,'START_HERE.txt',notice)
             write_bytes(z,'Review/build.json',(json.dumps(metadata,indent=2)+'\n').encode())
             write_bytes(z,'SHA256SUMS',''.join(f'{v}  {k}\n' for k,v in sorted(sums.items())).encode())

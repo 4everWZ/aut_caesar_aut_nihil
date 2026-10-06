@@ -1,0 +1,48 @@
+name: Chinese full-module installer
+
+on:
+  push:
+    tags: ['zh-cn-full-module-*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test and check translations
+        run: |
+          python -B -m unittest discover -s tools/localization -p 'test_*.py'
+          python -B tools/localization/check.py --check
+      - name: Install pinned font builder dependencies
+        run: python -m pip install -r tools/localization/font_candidate/requirements.txt
+      - name: Generate licensed Chinese font
+        run: bash tools/localization/prepare_full_font.sh "$RUNNER_TEMP/full-font"
+      - name: Build and verify complete runtime archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/full-report"
+          python -B tools/localization/package_module.py --font-dir "$RUNNER_TEMP/full-font" \
+            --output "$RUNNER_TEMP/ACAN-zh-cn-full-module.zip" > "$RUNNER_TEMP/full-report/build.log"
+          cd "$RUNNER_TEMP"
+          sha256sum ACAN-zh-cn-full-module.zip > full-report/SHA256SUMS
+          cp full-font/font_report.json full-report/
+      - name: Upload verification evidence only
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-module-verification
+          path: ${{ runner.temp }}/full-report/*
+          if-no-files-found: error
+      - name: Explain redistribution hold
+        run: |
+          cat docs/localization/ROMAN_MODELS_PERMISSION.md >> "$GITHUB_STEP_SUMMARY"
+          echo 'Full-module archive built and hash-verified. Public archive upload/release is withheld pending the specific model-pack answer. No upstream audio or translation-ID count blocks the build.' >> "$GITHUB_STEP_SUMMARY"
