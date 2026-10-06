@@ -1,0 +1,45 @@
+name: Draft existing full-module release
+
+on:
+  push:
+    branches: [localization/zh-cn]
+    paths: ['.github/workflows/draft-full-module.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preserve assets and tags while setting draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: 4everWZ/aut_caesar_aut_nihil
+        shell: bash
+        run: |
+          set -euo pipefail
+          target=zh-cn-full-module-20261006-r2
+          gh api "repos/$GH_REPO/releases/tags/$target" > before.json
+          for tag in zh-cn-full-module-20261006-r2 zh-cn-preview-20261005 zh-cn-preview-20261006; do
+            gh api "repos/$GH_REPO/git/ref/tags/$tag" > "$tag.tag-before.json"
+          done
+          for tag in zh-cn-preview-20261005 zh-cn-preview-20261006; do
+            gh api "repos/$GH_REPO/releases/tags/$tag" > "$tag.release-before.json"
+          done
+          gh release edit zh-cn-full-module-20261006-r2 --repo 4everWZ/aut_caesar_aut_nihil --draft=true
+          id=$(jq -r '.id' before.json)
+          gh api "repos/$GH_REPO/releases/$id" > after.json
+          jq -e '.draft == true' after.json
+          diff <(jq -S '{id,tag_name,assets: [.assets[] | {id,name,size,digest}]}' before.json) \
+               <(jq -S '{id,tag_name,assets: [.assets[] | {id,name,size,digest}]}' after.json)
+          for tag in zh-cn-full-module-20261006-r2 zh-cn-preview-20261005 zh-cn-preview-20261006; do
+            gh api "repos/$GH_REPO/git/ref/tags/$tag" > "$tag.tag-after.json"
+            diff "$tag.tag-before.json" "$tag.tag-after.json"
+          done
+          for tag in zh-cn-preview-20261005 zh-cn-preview-20261006; do
+            gh api "repos/$GH_REPO/releases/tags/$tag" > "$tag.release-after.json"
+            diff "$tag.release-before.json" "$tag.release-after.json"
+          done
+          echo 'Release is draft. Existing release ID, assets, all three tags and both patch releases verified unchanged.' >> "$GITHUB_STEP_SUMMARY"
