@@ -93,7 +93,7 @@ def main():
     notice=(status+'\n\nContains the full tracked module runtime tree, not merely a language overlay.\n'
         'Unresolved audio inputs: '+', '.join(missing)+'\n'
         'These sounds are absent from the preserved upstream baseline; no substitutes or gameplay edits are made. Runtime impact is unverified.\n'
-        'Public redistribution awaits the specific Roman Models Extravaganza permission/category confirmation in ROMAN_MODELS_PERMISSION.md.\n'
+        'User-authorized prerelease publication; the Roman Models Extravaganza permission/category remains unconfirmed; see details in ROMAN_MODELS_PERMISSION.md.\n'
         'For controlled testing, copy Modules/Aut_Caesar_Aut_Nihil into the game Modules directory, after backing up any existing module.\n'
         'Requires a lawful Warband installation and its Native/CommonRes resources; those game assets are not included.\n'
         'Select Simplified Chinese. The included OFL Chinese font is a static-checked candidate, not in-game validated.\n'

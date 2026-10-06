@@ -1,5 +1,6 @@
 {
   "roman_models_status": "pending_confirmation",
   "evidence": "docs/localization/ROMAN_MODELS_PERMISSION.md",
-  "public_full_module_assets": false
+  "public_full_module_assets": true,
+  "publication_authorization": "User explicitly authorized publication on 2026-10-06; not a new resource-author permission grant"
 }

@@ -54,8 +54,8 @@ has been performed. Restore the backed-up module to uninstall.
 
 `localization-full-module.yml` runs on `zh-cn-full-module-*` tags or manual dispatch.
 It tests tooling, validates translations, regenerates pinned licensed fonts, builds
-and verifies the full ZIP, and uploads only non-resource verification evidence.
-The installer is built locally and in Actions; public full-module resource upload
-is held solely for the specific Roman Models conditional-permission answer in
-ROMAN_MODELS_PERMISSION.md. No author message has been sent. Existing patch tags
+and verifies the full ZIP, uploads verification evidence, and publishes full-module prereleases on independent tags.
+The installer is built locally and in Actions; public full-module publication was explicitly authorized by the user on
+2026-10-06 while the specific Roman Models conditional-permission answer in
+ROMAN_MODELS_PERMISSION.md remains pending. No author message has been sent. Existing patch tags
 and patch prereleases remain separate and unchanged.

@@ -11,6 +11,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,7 +44,30 @@ jobs:
           name: full-module-verification
           path: ${{ runner.temp }}/full-report/*
           if-no-files-found: error
-      - name: Explain redistribution hold
+      - name: Record redistribution evidence
         run: |
           cat docs/localization/ROMAN_MODELS_PERMISSION.md >> "$GITHUB_STEP_SUMMARY"
-          echo 'Full-module archive built and hash-verified. Public archive upload/release is withheld pending the specific model-pack answer. No upstream audio or translation-ID count blocks the build.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Full-module archive built and hash-verified. User authorized publication; the model-pack permission category remains unconfirmed. No upstream audio or translation-ID count blocks the build.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish full-module prerelease
+        if: startsWith(github.ref, 'refs/tags/zh-cn-full-module-')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          sha256sum --check full-report/SHA256SUMS
+          cp full-report/SHA256SUMS SHA256SUMS
+          cat > notes.md <<'NOTES'
+          ACAN 简体中文完整模组安装包预览版，保留上游基线 3ed34f35c94c974f9d2a9102750dbb4866e38f6d。
+          整合汉化 CSV、OFL 中文字体、完整 MIT/OFL 许可及上游署名；排除 fxc.exe 等开发工具。
+          未实机测试；汉化仍有英文回退，字体渲染、GPU 兼容及游戏运行效果尚未验证。
+          上游原有 woman_death_12.wav、disease_sound.wav、riot_sound.wav 缺失保持不变，实际运行影响未知。
+          Roman Models Extravaganza 的具体许可适用类别仍待作者确认；用户已授权此次发布，这不等于新增作者授权。
+          需要合法安装的 Mount & Blade: Warband。备份原模组后，将压缩包 Modules/Aut_Caesar_Aut_Nihil 放入游戏 Modules 目录，选择简体中文。
+          NOTES
+          gh release create "$RELEASE_TAG" ACAN-zh-cn-full-module.zip SHA256SUMS \
+            --verify-tag --prerelease --latest=false \
+            --title "ACAN 完整模组汉化预览版 $RELEASE_TAG" --notes-file notes.md

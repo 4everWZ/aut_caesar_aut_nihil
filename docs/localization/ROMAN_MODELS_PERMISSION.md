@@ -28,7 +28,8 @@ has consent, does it cover redistribution of localization-only forks? Please
 identify any additional attribution, asset-sharing or distribution conditions,
 and provide the applicable public permission statement or written confirmation.
 
-No author contact has been sent. Public full-module assets are withheld pending
-this specific answer; local packaging and Actions verification continue. This
+No author contact has been sent. The user explicitly authorized public prerelease
+publication on 2026-10-06 while this answer remains pending. User publication
+authorization is not a new resource-author permission grant. This
 does not withhold the already published text-only patch. Missing upstream sounds
 and technical untranslated IDs are not permission requirements.
